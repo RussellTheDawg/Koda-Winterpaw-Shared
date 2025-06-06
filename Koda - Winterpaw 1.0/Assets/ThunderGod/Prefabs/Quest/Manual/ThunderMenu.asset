@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: ThunderMenu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: Toggle
+    icon: {fileID: 2800000, guid: 53a92dc42835ffe4a8dee4f935de0ff2, type: 3}
+    type: 102
+    parameter:
+      name: ThunderGod/Toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Lightning Bolt
+    icon: {fileID: 2800000, guid: b7bcace25f2fef142b645212d9fa4d9b, type: 3}
+    type: 102
+    parameter:
+      name: ThunderGod/Ability
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Allow Bolt Slam
+    icon: {fileID: 2800000, guid: 9e431794bac76bc4397b98f5f98ac470, type: 3}
+    type: 102
+    parameter:
+      name: ThunderGod/AllowFloorSlam
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Lightning Strikes
+    icon: {fileID: 2800000, guid: 2ee43d28eb2995f4e87e74f1f46e82bc, type: 3}
+    type: 102
+    parameter:
+      name: ThunderGod/Ability2
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b><size=90%><color=#FFFFFF>Read how to use menu for controls
+    icon: {fileID: 2800000, guid: 956e99e73f0e81f40bfea35deeb97f6d, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: How To Use
+    icon: {fileID: 2800000, guid: c31dcf92c3c3b8f4dbc6ea5f22dbf30c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 437ac06b444f8cb4c86ecd358aaa66f8, type: 2}
+    subParameters:
+    - name: 
+    labels: []
+  - name: Desktop Toggles
+    icon: {fileID: 2800000, guid: bee193814f8e8f94189b353ce1ec3ec5, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: e951de24563e25946aaf4775c06b96f5, type: 2}
+    subParameters:
+    - name: 
+    labels: []
+  - name: Settings
+    icon: {fileID: 2800000, guid: 8b831ea22cf588d4bafab2ed3f50db52, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: aff8bf652ca51a0478b7806db6f1d7ac, type: 2}
+    subParameters:
+    - name: 
+    labels: []

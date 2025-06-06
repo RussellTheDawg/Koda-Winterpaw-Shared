@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Tail Wag
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: de143657fd1ca9b4883426aa29fc57f4, type: 2}
+  controls:
+  - name: Slow
+    icon: {fileID: 2800000, guid: 23b4665765a7c6744a54c5ea098c56ec, type: 3}
+    type: 0
+    parameter:
+      name: Slow
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Normal
+    icon: {fileID: 2800000, guid: 23b4665765a7c6744a54c5ea098c56ec, type: 3}
+    type: 0
+    parameter:
+      name: Normal
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Fast
+    icon: {fileID: 2800000, guid: 23b4665765a7c6744a54c5ea098c56ec, type: 3}
+    type: 0
+    parameter:
+      name: Fast
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

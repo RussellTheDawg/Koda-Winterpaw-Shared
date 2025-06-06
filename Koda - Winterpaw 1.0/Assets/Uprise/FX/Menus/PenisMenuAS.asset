@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: PenisMenuAS
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Toggle
+    icon: {fileID: 2800000, guid: fe40da3d4c4633c4fa53341841c4fb71, type: 3}
+    type: 102
+    parameter:
+      name: penis.toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Particles
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 2fd3847ddeec3e64d876fcf55896006d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Transition Type
+    icon: {fileID: 2800000, guid: 18876d5923b2a30408ffbbc12f3036bc, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 646fc4ba077627e44ba6085619dfbd0b, type: 2}
+    subParameters: []
+    labels: []
+  - name: Edits
+    icon: {fileID: 2800000, guid: dec93d403a3beae4b9be5010fc7dd413, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: fe7ce4c63b36e1c4ea25827aff6e9e89, type: 2}
+    subParameters: []
+    labels: []
+  - name: Controls
+    icon: {fileID: 2800000, guid: 721e9bb9e9d26f54d867bf3f94dc2869, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 60a3448f67e795049ac8f4825e92f195, type: 2}
+    subParameters: []
+    labels: []

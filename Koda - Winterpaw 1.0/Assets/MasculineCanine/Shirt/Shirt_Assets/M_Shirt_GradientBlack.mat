@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Shirt_GradientBlack
+  m_Shader: {fileID: 4800000, guid: 5f2a82345d79a2949a019e480dd3b6cf, type: 3}
+  m_Parent: {fileID: 2100000, guid: f43ed8b22e268744aa87dd40fcf90d7f, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _LIGHTINGMODE_TEXTURERAMP
+  - _STOCHASTICMODE_DELIOT_HEITZ
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    AllLockedGUIDS: 7ff6983e7b3ab5c4f96ba2ab27e189ef,15ad582008ab59f4b80b94ff85f2a1e6,854c07281b8ab3f498a915ca941114d7,428f4044905659e4caeab3f8fc246669,f372e3e3d1719a44a8cae9010f035221,76dcac8665d999f4ab3c7192a85de23f,f43ed8b22e268744aa87dd40fcf90d7f,62301b05d18f4004e95ac4c7a700c9e9,c4b2f436a245dc64ba4ccdf54792ac88,381bf0b6bfa59514a91576609aef05c0,c3c0972951c43bb4bb5aec698aabd62f,4a769919a10acfe4aa21c8ae9c37b09b
+    OptimizedShaderFolder: Shirt1_Color
+    OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fdd0d85f38c895f458597340b84f433d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []

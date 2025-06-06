@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4222242740108139542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.0011648929
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.0005478023
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.0012994376
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.0006186368
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.0007993921
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.0003171654
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 440eefc5df0e35a41903eefffdb1545e, type: 2}
+    - target: {fileID: 919132149155446097, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      propertyPath: m_Name
+      value: Bracelet_Mini
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3892756994814654258}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 423672661054741432}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e9dd0f7f88f249a46a05db1d31759a43,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5180725871324261586}
+  m_SourcePrefab: {fileID: 100100000, guid: e9dd0f7f88f249a46a05db1d31759a43, type: 3}
+--- !u!1 &3916164336842907975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e9dd0f7f88f249a46a05db1d31759a43,
+    type: 3}
+  m_PrefabInstance: {fileID: 4222242740108139542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3892756994814654258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916164336842907975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4515729909544124416
+  references:
+    version: 2
+    RefIds:
+    - rid: 4515729909544124416
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 3916164336842907975}
+        linkTo:
+        - useBone: 1
+          bone: 3
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &423672661054741432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916164336842907975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4515729909544124417
+  references:
+    version: 2
+    RefIds:
+    - rid: 4515729909544124417
+      type: {class: BlendShapeLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        objs: []
+        linkSkins:
+        - renderer: {fileID: 8112560324947117060}
+        baseObj: Body
+        includeAll: 1
+        exactMatch: 0
+        excludes: []
+        includes: []
+--- !u!114 &5180725871324261586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916164336842907975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4515729909544124418
+  references:
+    version: 2
+    RefIds:
+    - rid: 4515729909544124418
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Somna/Bracelet
+        state:
+          actions:
+          - rid: 4515729909544124419
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 4515729909544124419
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 3916164336842907975}
+        mode: 0
+--- !u!137 &8112560324947117060 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3887185075125053422, guid: e9dd0f7f88f249a46a05db1d31759a43,
+    type: 3}
+  m_PrefabInstance: {fileID: 4222242740108139542}
+  m_PrefabAsset: {fileID: 0}

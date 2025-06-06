@@ -1,0 +1,27 @@
+Step 1
+
+Using creator companion, make sure your package is updated. Starting from the top down, click the green arrows and update the packages necessary (if not already).
+-Note, vrcfury likes to throw warnings and errors. It will (usually) resolve itself
+-Results may vary, updating shaders hasn't given me issue yet. Be sure to backup your project just in case
+
+using Poiyomi "poi.Toon.7.3.50.To.8.1.161"
+
+Step 2
+
+If VRCFury giving corrupted error, follow tutorial closely to resolve. Deleting original VRCFury files will allow Creator Companion to freshly reinstall VRCFury to an updated version. If not clicking and dragging the outfit prefabs directly into your MasculineCanine avatar is all that is needed. 
+
+Step 3
+
+Testing with GestureManager (Found under Tools)! The Harness should imediately adhere to your blendshapes. Testing with any sitting animation is just as good. 
+
+Step 4
+
+Upload!
+
+
+Note:
+IF your harness does NOT adhere to your blendshapes, unplay the scene and click the clothing prefab. In your inspector under "VRC Fury (Script) there is a big gray box with "You are viewing a prefab instance, click here to edit VRCFury on the base prefab", click that gray box. The only issue that is known to me is the 'hips' armature didn't sync with the script. Click and drag your "hips" into the "Hips" space in VRCFury.
+
+To return from the prefab view to your scene, simply click the arrow pointing left in the hierarchy. 
+
+Re-test by hitting play and clicking the gesture manager to continue and finish step 3.

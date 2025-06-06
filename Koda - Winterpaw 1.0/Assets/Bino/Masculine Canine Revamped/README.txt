@@ -1,0 +1,2 @@
+If you want to remove any new feature, just change the tag of the gameobject to EditorOnly
+Like with the toes. If you want to remove the toes physbones, just goes to the Physbones and change the tag of Dynamics.Toes to EditorOnly on the inspector

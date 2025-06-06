@@ -1,0 +1,7 @@
+To get the boxers to function properly, you'll need to unpack the 'boxers.MascCanine' prefab to edit the
+VRCFury script. If you look at the VRCFury components on the boxers prefab, you'll notice in the toggle,
+there are two empty slots in the 'Turn Off' state. You'll want to put 'Penis' and 'Particles' in those
+slots. This enables you to toggle on the penis asset to use the arousal recievers and hide the penis
+mesh when the boxers are toggled on. Toggling the boxers off will return the penis and particles to
+their original state. It also makes the transition between clothed and nude seamless, even when you're
+not currently in arousal mode!
