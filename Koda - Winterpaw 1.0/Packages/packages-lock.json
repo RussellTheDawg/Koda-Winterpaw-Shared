@@ -6,6 +6,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.furality.sdk": {
+      "version": "file:com.furality.sdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.furality.somnashader": {
       "version": "file:com.furality.somnashader",
       "depth": 0,
@@ -227,6 +233,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "dev.hai-vr.lightbox-viewer": {
+      "version": "file:dev.hai-vr.lightbox-viewer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "dev.vrlabs.av3manager": {
       "version": "file:dev.vrlabs.av3manager",
       "depth": 0,
@@ -235,6 +247,12 @@
     },
     "vrchat.blackstartx.gesture-manager": {
       "version": "file:vrchat.blackstartx.gesture-manager",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "wholesomevr.sps-configurator": {
+      "version": "file:wholesomevr.sps-configurator",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

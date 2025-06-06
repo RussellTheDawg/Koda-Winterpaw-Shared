@@ -10926,12 +10926,12 @@ PrefabInstance:
     - target: {fileID: 3946562089263428192, guid: 40f7093df8038624c89c1bf989071a1d,
         type: 3}
       propertyPath: cachedExecutionGroupIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3946562089263428192, guid: 40f7093df8038624c89c1bf989071a1d,
         type: 3}
       propertyPath: latestValidExecutionGroupIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3969986300718363375, guid: 40f7093df8038624c89c1bf989071a1d,
         type: 3}
@@ -10941,12 +10941,12 @@ PrefabInstance:
     - target: {fileID: 4923609399596397873, guid: 40f7093df8038624c89c1bf989071a1d,
         type: 3}
       propertyPath: cachedExecutionGroupIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4923609399596397873, guid: 40f7093df8038624c89c1bf989071a1d,
         type: 3}
       propertyPath: latestValidExecutionGroupIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30464,7 +30464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &8127389557770761304
 GameObject:
   m_ObjectHideFlags: 0
@@ -30822,7 +30822,7 @@ PrefabInstance:
     - target: {fileID: 3927954891651915980, guid: c0a8727abebbcc64780b1f1c4abe5b74,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4386589853167849513, guid: c0a8727abebbcc64780b1f1c4abe5b74,
         type: 3}
@@ -31927,6 +31927,7 @@ MonoBehaviour:
           - rid: 6425162456688492758
           - rid: 7806802057276948607
           - rid: 7806802057276948612
+          - rid: 7806802080344834230
         saved: 0
         slider: 1
         sliderInactiveAtZero: 1
@@ -32008,6 +32009,24 @@ MonoBehaviour:
         obj: {fileID: 0}
         renderer: {fileID: 1303705840}
         materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a785fa540028ce64fb3ee6931b033e4a|Assets/Koda to Oroppo/Pitviper Somna
+            Tread.mat
+          objRef: {fileID: 2100000, guid: a785fa540028ce64fb3ee6931b033e4a, type: 2}
+    - rid: 7806802080344834230
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1303705840}
+        materialIndex: 2
         mat:
           version: 1
           fileID: 0
@@ -32730,7 +32749,7 @@ Transform:
   m_GameObject: {fileID: 6708282141992816693}
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

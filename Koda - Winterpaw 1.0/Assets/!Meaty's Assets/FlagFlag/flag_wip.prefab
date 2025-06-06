@@ -62,7 +62,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/Extras/Kim Petras
+        name: Props/Pride Flag/Extras/Kim Petras
         state:
           actions:
           - rid: 6452182809882394797
@@ -152,7 +152,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/Extras/Bottom Pride
+        name: Props/Pride Flag/Extras/Bottom Pride
         state:
           actions:
           - rid: 6452182809882394796
@@ -242,7 +242,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/Extras/Pan
+        name: Props/Pride Flag/Extras/Pan
         state:
           actions:
           - rid: 6452182809882394795
@@ -332,7 +332,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/Extras/Ben Bigger
+        name: Props/Pride Flag/Extras/Ben Bigger
         state:
           actions:
           - rid: 6452182809882394794
@@ -829,7 +829,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/On
+        name: Props/Pride Flag/On
         state:
           actions:
           - rid: 6452182809882394791
@@ -913,7 +913,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/World Drop
+        name: Props/Pride Flag/World Drop
         state:
           actions:
           - rid: 6452182809882394799
@@ -996,7 +996,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Furality/Props/Pride Flag/AudioLink
+        name: Props/Pride Flag/AudioLink
         state:
           actions:
           - rid: 6452182809882394983

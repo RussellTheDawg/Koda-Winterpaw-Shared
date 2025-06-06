@@ -132,7 +132,7 @@ MonoBehaviour:
             id: c08ce3eace23f9b43ae46d172ba940f6|Assets/Vio/SprayBottle/anim/RightHand
               Controllers/SprayMenuR.asset
             objRef: {fileID: 11400000, guid: c08ce3eace23f9b43ae46d172ba940f6, type: 2}
-          prefix: Furality/Props/SprayBottle
+          prefix: Props/SprayBottle
         prms:
         - parameters:
             version: 1
