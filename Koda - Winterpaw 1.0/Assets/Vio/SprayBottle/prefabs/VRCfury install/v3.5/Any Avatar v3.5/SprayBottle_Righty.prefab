@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7643933945563216219}
   - component: {fileID: 3342871968002381018}
   - component: {fileID: 4113159403754116215}
-  - component: {fileID: 7032620914949257691}
   m_Layer: 0
   m_Name: VRCFuryComponents
   m_TagString: Untagged
@@ -132,7 +131,7 @@ MonoBehaviour:
             id: c08ce3eace23f9b43ae46d172ba940f6|Assets/Vio/SprayBottle/anim/RightHand
               Controllers/SprayMenuR.asset
             objRef: {fileID: 11400000, guid: c08ce3eace23f9b43ae46d172ba940f6, type: 2}
-          prefix: Props/SprayBottle
+          prefix: Props
         prms:
         - parameters:
             version: 1
@@ -180,40 +179,6 @@ MonoBehaviour:
         removePrefixes: []
         addPrefix: 
         useSecurityForToggle: 0
---- !u!114 &7032620914949257691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 258748474751090140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 8959031339893129562
-  references:
-    version: 2
-    RefIds:
-    - rid: 8959031339893129562
-      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 1
-        path: Vio
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: f6c574544440924448c56be4cd412ffc|Assets/Vio/SprayBottle/icon/128viopng.png
-          objRef: {fileID: 2800000, guid: f6c574544440924448c56be4cd412ffc, type: 3}
 --- !u!1 &2675472383964704298
 GameObject:
   m_ObjectHideFlags: 0

@@ -3300,7 +3300,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 0}
         affectAllMeshes: 1
-        propertyName: _EmissionStrength
+        propertyName: _EmissionStrength1
         propertyType: 0
         value: 8
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -14868,6 +14868,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.023
       objectReference: {fileID: 0}
+    - target: {fileID: 1770770432742265800, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2390918458151484438, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14882,6 +14887,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2446926783211423110, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2852153934141355405, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
         type: 3}
@@ -14898,6 +14908,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.3270154
       objectReference: {fileID: 0}
+    - target: {fileID: 2855546505775828007, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253207317885522621, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4571214365918666376, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14912,6 +14932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774453972955163732, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5235694748357140343, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
         type: 3}
@@ -14963,6 +14988,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6740130918305950380, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7652464877200042791, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
         type: 3}
       propertyPath: m_Name
@@ -14982,6 +15012,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095912702653169778, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234794507203704243, guid: 08ab8223a5b5afd4f96f01b96bcc5f7c,
+        type: 3}
+      propertyPath: cachedExecutionGroupIndex
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17180,6 +17220,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4590830488423839389}
   m_SourcePrefab: {fileID: 100100000, guid: 7bce4d538a42a7f4995bbf717398467d, type: 3}
+--- !u!137 &3378218795541235194 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1962415003555045667, guid: 7bce4d538a42a7f4995bbf717398467d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3880482288663995609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8443950110777669039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
@@ -17222,10 +17268,11 @@ MonoBehaviour:
         name: Clothing/Bandana
         state:
           actions:
-          - rid: 7806802010993328150
+          - rid: 7806802217729524121
+          - rid: 7806802217729524131
         saved: 1
-        slider: 0
-        sliderInactiveAtZero: 0
+        slider: 1
+        sliderInactiveAtZero: 1
         securityEnabled: 0
         defaultOn: 0
         includeInRest: 0
@@ -17246,13 +17293,13 @@ MonoBehaviour:
         separateLocal: 0
         localState:
           actions: []
-        hasTransition: 0
+        hasTransition: 1
         transitionStateIn:
           actions: []
         transitionStateOut:
           actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
+        transitionTimeIn: 0.25
+        transitionTimeOut: 0.25
         localTransitionStateIn:
           actions: []
         localTransitionStateOut:
@@ -17266,7 +17313,25 @@ MonoBehaviour:
         holdButton: 0
         invertRestLogic: 0
         expandIntoTransition: 1
-    - rid: 7806802010993328150
+    - rid: 7806802217729524121
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 3378218795541235194}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cc96eb4dc06d9cf45b4b5a9506d3756d|Assets/MasculineCanine/Bandana/Materials/Pride
+            Flags/Pride.mat
+          objRef: {fileID: 2100000, guid: cc96eb4dc06d9cf45b4b5a9506d3756d, type: 2}
+    - rid: 7806802217729524131
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1

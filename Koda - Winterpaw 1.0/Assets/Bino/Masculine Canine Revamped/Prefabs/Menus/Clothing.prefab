@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -128,7 +128,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Glasses
+        name: Clothing/Misc./Glasses
         state:
           actions:
           - rid: 8221562543965471080
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -215,7 +215,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Shades
+        name: Clothing/Misc./Shades
         state:
           actions:
           - rid: 8221562543965471082
@@ -271,7 +271,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         blendShape: Remove Glasses Lenses
-        blendShapeValue: 100
+        blendShapeValue: 0
         renderer: {fileID: 0}
         allRenderers: 1
 --- !u!1 &5550407476277641142
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -333,7 +333,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Collar
+        name: Clothing/Misc./Collar
         state:
           actions:
           - rid: 8221562543965471239
