@@ -14,8 +14,11 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - MOCHIE_PBR
+  - POI_AUDIOLINK
   - VIGNETTE_MASKED
-  - _LIGHTINGMODE_FLAT
+  - _EMISSION
+  - _LIGHTINGMODE_REALISTIC
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
@@ -25,11 +28,13 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: 30169c7c6adb9e14e81c68ddaef4d4a4
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
-      _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT MOCHIE_PBR POI_AUDIOLINK VIGNETTE_MASKED
+      _EMISSION _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
+    _EmissionAL0EnabledAnimated: 1
+    _EmissionStrengthAnimated: 1
     _MochieMetallicMaps_texPack_a_channel: 4
     _MochieMetallicMaps_texPack_a_fallback: 1
     _MochieMetallicMaps_texPack_a_guid: 936fe6813f2e26c4e811b018b29ea40e
@@ -39,14 +44,15 @@ Material:
     _MochieMetallicMaps_texPack_b_inverted: False
     _MochieMetallicMaps_texPack_g_channel: 4
     _MochieMetallicMaps_texPack_g_fallback: 1
+    _MochieMetallicMaps_texPack_g_guid: 721716824ad4dc545b4b3e965fa3247a
     _MochieMetallicMaps_texPack_g_inverted: False
-    _MochieMetallicMaps_texPack_lastConfirmTime: 1745299828
+    _MochieMetallicMaps_texPack_lastConfirmTime: 1749717995
     _MochieMetallicMaps_texPack_r_channel: 4
     _MochieMetallicMaps_texPack_r_fallback: 1
     _MochieMetallicMaps_texPack_r_guid: 0b67754e1b2d1ea458464f8a5b248ca9
     _MochieMetallicMaps_texPack_r_inverted: False
+    _ScrollingEmissionAnimated: 1
     _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
-    _stripped_tex__MochieMetallicMaps: ae3d3f4c65caa874b89843482b4704bf
     _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
     _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
     _stripped_tex__VertexManipulationHeightMask: 61f4c18b8693653409d45e2b7a30cf7c
@@ -63,12 +69,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: 030af47b75517e54d90fc518d99abd7a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 2800000, guid: 1b3cc12706313284299b7515e9e03a0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionScrollingCurve:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _LightDataSDFMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingAOMaps:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 61f4c18b8693653409d45e2b7a30cf7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingDetailShadowMaps:
@@ -81,6 +99,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 6d9f2e417af3b21499eef64e70a1459d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MochieMetallicMaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MochieReflCube:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -727,8 +753,8 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 10
     - _EmissionAL0Enabled: 0
-    - _EmissionAL0MultipliersBand: 0
-    - _EmissionAL0StrengthBand: 0
+    - _EmissionAL0MultipliersBand: 1
+    - _EmissionAL0StrengthBand: 1
     - _EmissionAL1Enabled: 0
     - _EmissionAL1MultipliersBand: 0
     - _EmissionAL1StrengthBand: 0
@@ -738,7 +764,7 @@ Material:
     - _EmissionAL3Enabled: 0
     - _EmissionAL3MultipliersBand: 0
     - _EmissionAL3StrengthBand: 0
-    - _EmissionBaseColorAsMap: 0
+    - _EmissionBaseColorAsMap: 1
     - _EmissionBaseColorAsMap1: 0
     - _EmissionBaseColorAsMap2: 0
     - _EmissionBaseColorAsMap3: 0
@@ -850,20 +876,20 @@ Material:
     - _EmissiveScroll_Velocity1: 10
     - _EmissiveScroll_Velocity2: 10
     - _EmissiveScroll_Velocity3: 10
-    - _EmissiveScroll_Width: 10
+    - _EmissiveScroll_Width: 2
     - _EmissiveScroll_Width1: 10
     - _EmissiveScroll_Width2: 10
     - _EmissiveScroll_Width3: 10
     - _EnableALDecal: 0
     - _EnableAniso: 0
-    - _EnableAudioLink: 0
+    - _EnableAudioLink: 1
     - _EnableDepthBulge: 0
     - _EnableDepthRimLighting: 0
     - _EnableDissolve: 0
     - _EnableDissolveAudioLink: 0
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
-    - _EnableEmission: 0
+    - _EnableEmission: 1
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
@@ -1338,7 +1364,7 @@ Material:
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0.3
     - _LightingMirrorVertexLightingEnabled: 1
-    - _LightingMode: 5
+    - _LightingMode: 6
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
@@ -1584,7 +1610,7 @@ Material:
     - _MirrorTextureEnabled: 0
     - _MirrorTextureForceEnabled: 0
     - _MirrorTextureUV: 0
-    - _MochieBRDF: 0
+    - _MochieBRDF: 1
     - _MochieForceFallback: 0
     - _MochieGSAAEnabled: 1
     - _MochieLitFallback: 1
@@ -1605,12 +1631,12 @@ Material:
     - _MochieReflectionStrengthGlobalMaskBlendType: 2
     - _MochieReflectionTintThemeIndex: 0
     - _MochieRoughnessMapInvert: 0
-    - _MochieRoughnessMultiplier: 1
+    - _MochieRoughnessMultiplier: 0.607
     - _MochieRoughnessMultiplier2: 1
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
     - _MochieSpecularMaskInvert: 0
-    - _MochieSpecularStrength: 1
+    - _MochieSpecularStrength: 0.75
     - _MochieSpecularStrength2: 1
     - _MochieSpecularStrengthGlobalMask: 0
     - _MochieSpecularStrengthGlobalMaskBlendType: 2
@@ -1829,7 +1855,7 @@ Material:
     - _RedColorThemeIndex: 0
     - _RedTextureStochastic: 0
     - _RedTextureUV: 0
-    - _RefSpecFresnelStrength: 0.5
+    - _RefSpecFresnelStrength: 0.581
     - _Reflectance: 0.04
     - _ReflectionApplyTransparency: 1
     - _ReflectionBlendMode: 1
@@ -2296,7 +2322,7 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_AudioLinkCategory: 0
+    - m_AudioLinkCategory: 1
     - m_OutlineCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
@@ -2437,11 +2463,11 @@ Material:
     - m_end_videoEffects: 0
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
-    - m_lightingCategory: 1
-    - m_mainCategory: 1
+    - m_lightingCategory: 0
+    - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -2536,7 +2562,7 @@ Material:
     - m_start_VideoSettings: 0
     - m_start_VoronoiAudioLink: 0
     - m_start_alphaBlending: 0
-    - m_start_audioLink: 0
+    - m_start_audioLink: 1
     - m_start_audioLinkOverrides: 0
     - m_start_backFace: 0
     - m_start_backlight: 0
@@ -2552,7 +2578,7 @@ Material:
     - m_start_emission1Options: 0
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
-    - m_start_emissionOptions: 0
+    - m_start_emissionOptions: 1
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
@@ -2836,9 +2862,9 @@ Material:
     - s_start_DepthFXColorEmission: 0
     - s_start_DetailNormal: 0
     - s_start_DetailTexture: 0
-    - s_start_EmissionAL0Add: 0
+    - s_start_EmissionAL0Add: 1
     - s_start_EmissionAL0COut: 0
-    - s_start_EmissionAL0Multiply: 0
+    - s_start_EmissionAL0Multiply: 1
     - s_start_EmissionAL1Add: 0
     - s_start_EmissionAL1COut: 0
     - s_start_EmissionAL1Multiply: 0
@@ -2956,7 +2982,7 @@ Material:
     - s_start_RimLight1ShapeControls: 1
     - s_start_RimLight2DirectionMask: 0
     - s_start_RimLightDirectionMask: 0
-    - s_start_ScrollingEmission0: 0
+    - s_start_ScrollingEmission0: 1
     - s_start_ShadingAddPass: 1
     - s_start_ShadingGlobalMask: 0
     - s_start_StylizedReflectionLilEnviroReflections: 1
@@ -3149,15 +3175,15 @@ Material:
     - _DistortionMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionStrength1AudioLink: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionStrengthAudioLink: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionAL0Multipliers: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionAL0StrengthMod: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionAL0Multipliers: {r: 0, g: 3, b: 0, a: 0}
+    - _EmissionAL0StrengthMod: {r: 1, g: 4, b: 0, a: 0}
     - _EmissionAL1Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL1StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL2Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL2StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL3Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}
