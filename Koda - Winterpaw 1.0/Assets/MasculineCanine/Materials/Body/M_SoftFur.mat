@@ -86,19 +86,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: da33ceffac1bacd4d9e4cdfef65cab31, type: 3}
+        m_Texture: {fileID: 2800000, guid: ada441eb930d4484f9350db202057c17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
-        m_Texture: {fileID: 2800000, guid: da33ceffac1bacd4d9e4cdfef65cab31, type: 3}
+        m_Texture: {fileID: 2800000, guid: da4e7618ff681ea429ee13bf5cddc9a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask:
-        m_Texture: {fileID: 2800000, guid: f155e644226bb374cb18e43c14181ded, type: 3}
+        m_Texture: {fileID: 2800000, guid: ada441eb930d4484f9350db202057c17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: da4e7618ff681ea429ee13bf5cddc9a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionScrollingCurve:
@@ -126,7 +126,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9c2b903e613ff664385f19fbed28530d, type: 3}
+        m_Texture: {fileID: 2800000, guid: b99ebb1ea45d42f428d25e93f04703f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieMetallicMaps:
