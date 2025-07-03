@@ -22,7 +22,7 @@ MonoBehaviour:
   - name: HeftyBits/JunkCockSize
     valueType: 1
     saved: 1
-    defaultValue: 0.28
+    defaultValue: 0.2
     networkSynced: 1
   - name: HeftyBits/JunkBallSag
     valueType: 1
@@ -62,5 +62,5 @@ MonoBehaviour:
   - name: HeftyBits/JunkForeskinRetractToggle
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1

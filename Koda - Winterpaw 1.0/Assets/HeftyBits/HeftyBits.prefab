@@ -1182,7 +1182,7 @@ Transform:
   m_GameObject: {fileID: 8873356765974556379}
   serializedVersion: 2
   m_LocalRotation: {x: 0.982905, y: 0.000000017237973, z: 0.0000000920262, w: -0.18411376}
-  m_LocalPosition: {x: 0.0022598198, y: 0.32013696, z: 0.09097249}
+  m_LocalPosition: {x: 0.0022598198, y: 0.32013696, z: 0.09097254}
   m_LocalScale: {x: 1.0038115, y: 1.0038114, z: 1.0038114}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1467,11 +1467,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cbad9e83740911b42863c1459da080f9,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4878931604715296529}
+      addedObject: {fileID: 8267542519286288076}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cbad9e83740911b42863c1459da080f9,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: -2817000143058986897}
+      addedObject: {fileID: 607352720560192504}
   m_SourcePrefab: {fileID: 100100000, guid: cbad9e83740911b42863c1459da080f9, type: 3}
 --- !u!1 &2438223367770068052 stripped
 GameObject:
@@ -1479,7 +1479,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3249108459596081413}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4878931604715296529
+--- !u!114 &8267542519286288076
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1498,11 +1498,11 @@ MonoBehaviour:
   config:
     features: []
   content:
-    rid: 6355527544513495075
+    rid: 4467358710317973752
   references:
     version: 2
     RefIds:
-    - rid: 6355527544513495075
+    - rid: 4467358710317973752
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 4
@@ -1521,7 +1521,7 @@ MonoBehaviour:
             guid: 658885bfd15e579428efc5e0f1efe8df
             id: 658885bfd15e579428efc5e0f1efe8df|Assets/HeftyBits/FX/MENU_HEFTYBITS.asset
             objRef: {fileID: 11400000, guid: 658885bfd15e579428efc5e0f1efe8df, type: 2}
-          prefix: Body/Lewd/HeftyBits
+          prefix: Body/Lewd/HeftyPenis
         prms:
         - parameters:
             version: 1
@@ -1566,7 +1566,7 @@ MonoBehaviour:
         - Armature/Hips/HeftyBits
         addPrefix: 
         useSecurityForToggle: 0
---- !u!114 &-2817000143058986897
+--- !u!114 &607352720560192504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1585,18 +1585,18 @@ MonoBehaviour:
   config:
     features: []
   content:
-    rid: 6355527544513495073
+    rid: 4467358710317973753
   references:
     version: 2
     RefIds:
-    - rid: 6355527544513495073
+    - rid: 4467358710317973753
       type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
         action:
           actions:
-          - rid: 6355527544513495074
-    - rid: 6355527544513495074
+          - rid: 4467358710317973754
+    - rid: 4467358710317973754
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
