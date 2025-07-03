@@ -51,7 +51,7 @@ MonoBehaviour:
     networkSynced: 1
   - name: HeftyBits/JunkToggle
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
     networkSynced: 1
   - name: HeftyBits/JunkHapticPlug
