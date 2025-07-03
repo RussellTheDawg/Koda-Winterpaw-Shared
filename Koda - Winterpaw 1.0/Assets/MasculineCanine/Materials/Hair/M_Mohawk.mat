@@ -14,7 +14,6 @@ Material:
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - POI_AUDIOLINK
-  - POI_EMISSION_1
   - VIGNETTE_MASKED
   - _EMISSION
   - _LIGHTINGMODE_FLAT
@@ -34,6 +33,7 @@ Material:
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1
+    _EmissionCenterOutEnabledAnimated: 1
     _EmissionStrength1Animated: 1
     _EmissionStrengthAnimated: 1
   disabledShaderPasses: []
@@ -186,11 +186,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: d5110517d911d654eb2466a0cdb0faa9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 43a2db6da62d37e4789d2c9ffa06a58d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
-        m_Texture: {fileID: 2800000, guid: d5110517d911d654eb2466a0cdb0faa9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap2:
@@ -1239,7 +1239,7 @@ Material:
     - _EmissionBlinkingOffset1: 0
     - _EmissionBlinkingOffset2: 0
     - _EmissionBlinkingOffset3: 0
-    - _EmissionCenterOutEnabled: 1
+    - _EmissionCenterOutEnabled: 0
     - _EmissionCenterOutEnabled1: 0
     - _EmissionCenterOutEnabled2: 0
     - _EmissionCenterOutEnabled3: 0
@@ -1315,7 +1315,7 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 0
+    - _EmissionStrength: 2.52
     - _EmissionStrength1: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
@@ -1353,7 +1353,7 @@ Material:
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
     - _EnableEmission: 1
-    - _EnableEmission1: 1
+    - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
     - _EnableEnvironmentalRim: 0
@@ -3137,10 +3137,10 @@ Material:
     - m_start_depthRimLightOptions: 0
     - m_start_dissolve: 0
     - m_start_dissolveHueShift: 0
-    - m_start_emission1Options: 1
+    - m_start_emission1Options: 0
     - m_start_emission2Options: 1
     - m_start_emission3Options: 0
-    - m_start_emissionOptions: 0
+    - m_start_emissionOptions: 1
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
@@ -3441,7 +3441,7 @@ Material:
     - s_start_EmissionBlinking1: 0
     - s_start_EmissionBlinking2: 0
     - s_start_EmissionBlinking3: 0
-    - s_start_EmissionCenterOut0: 1
+    - s_start_EmissionCenterOut0: 0
     - s_start_EmissionCenterOut2: 0
     - s_start_EmissionCenterOutEnabled1: 0
     - s_start_EmissionCenterOutEnabled3: 0

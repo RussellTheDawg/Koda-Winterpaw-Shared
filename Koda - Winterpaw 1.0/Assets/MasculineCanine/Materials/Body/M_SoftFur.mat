@@ -1261,7 +1261,7 @@ Material:
     - _EmissionBlinkingOffset1: 0
     - _EmissionBlinkingOffset2: 0
     - _EmissionBlinkingOffset3: 0
-    - _EmissionCenterOutEnabled: 1
+    - _EmissionCenterOutEnabled: 0
     - _EmissionCenterOutEnabled1: 0
     - _EmissionCenterOutEnabled2: 0
     - _EmissionCenterOutEnabled3: 0
@@ -3159,7 +3159,7 @@ Material:
     - m_start_depthRimLightOptions: 0
     - m_start_dissolve: 0
     - m_start_dissolveHueShift: 0
-    - m_start_emission1Options: 1
+    - m_start_emission1Options: 0
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
     - m_start_emissionOptions: 1
@@ -3187,7 +3187,7 @@ Material:
     - m_start_uvLocalWorld: 0
     - m_start_uvPanosphere: 0
     - m_start_uvPolar: 0
-    - m_start_vertexGlitching: 0
+    - m_start_vertexGlitching: 1
     - m_start_vertexManipulation: 0
     - m_start_videoEffects: 0
     - m_start_voronoi: 0
@@ -3463,7 +3463,7 @@ Material:
     - s_start_EmissionBlinking1: 0
     - s_start_EmissionBlinking2: 0
     - s_start_EmissionBlinking3: 0
-    - s_start_EmissionCenterOut0: 1
+    - s_start_EmissionCenterOut0: 0
     - s_start_EmissionCenterOut2: 0
     - s_start_EmissionCenterOutEnabled1: 0
     - s_start_EmissionCenterOutEnabled3: 0

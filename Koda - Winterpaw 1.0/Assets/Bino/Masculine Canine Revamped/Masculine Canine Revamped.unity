@@ -6968,7 +6968,7 @@ MonoBehaviour:
         renderer: {fileID: 0}
         renderer2: {fileID: 0}
         affectAllMeshes: 1
-        propertyName: _EmissionStrength0
+        propertyName: _EmissionStrength
         propertyType: 0
         value: 8
         valueVector: {x: 0, y: 0, z: 0, w: 0}
@@ -13175,17 +13175,17 @@ PrefabInstance:
     - target: {fileID: 3328560920374207824, guid: 01c7870f8cd251348abce64437248d01,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.18411376
+      value: -0.18411393
       objectReference: {fileID: 0}
     - target: {fileID: 3328560920374207824, guid: 01c7870f8cd251348abce64437248d01,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.982905
+      value: 0.9829049
       objectReference: {fileID: 0}
     - target: {fileID: 3328560920374207824, guid: 01c7870f8cd251348abce64437248d01,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000017237973
+      value: 0.00000001723799
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18846,8 +18846,8 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 1753539446}
-        affectAllMeshes: 0
+        renderer2: {fileID: 0}
+        affectAllMeshes: 1
         propertyName: _EmissionCenterOutEnabled
         propertyType: 0
         value: 1
