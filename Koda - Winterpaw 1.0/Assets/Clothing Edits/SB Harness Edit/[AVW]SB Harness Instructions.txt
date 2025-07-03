@@ -1,0 +1,80 @@
+[AVW]SB Harness Instructions:
+
+
+Prior to setup / required project packages:
+
+-Poiyomi Toon Shader 9.2.42
+-VRCFury 1.3.7
+-AudioLink 2.10
+-ZenithVal/OSCLeash v2.2.0 (If using OSC Leash, if not, omit).
+
+
+Initial setup:
+
+This is where you pick the type of harness you want to wear. Full , Upper, both with no leash and no handle options. 
+Initially the harness will be invisible, activate the harness, but prior to uploading make sure you deactivate the "[AVW]SBHarness" again so it will default off for avatar preview. 
+
+IF YOU ARE NOT USING OSC, DO NOT USE OSCLEASH DYNAMICS. They'll be running redundant scripts you do not need. 
+
+In the [AVW]SBHarness prefab, you will also find a container labeled "Blendshape Helpers" If you find that your blendshapes are pushing outside of the back and front hooks and handle, search via their name in the hierarchy and adjust accordingly. The ball and text will then be deleted automatically on upload. 
+
+Easiest way to adjust;
+-Activate gesture manager (found in Tools, Gesture Manager Emulator). Will need to be added to the project if not done so already.
+-In play mode, click GM to rest your avatar in its default state. At the ball you wish to change the position for, search the name, find the bone and move it to your desired location. Once finished, note down your transform -POSITION ONLY-, and exit play mode.
+-Apply the position X,Y,Z to that same bone, and it should fit and work smoothly despite it now looking as if it's floating away from your body. Double checking back in play mode is strongly recommended.
+
+
+OSCLeash Install:
+Landing page - https://github.com/ZenithVal/OSCLeash
+
+
+A little PSA before we get started, this system is not only in its infancy, but it's important to keep in mind that VRChat normally doesn't want your avatar drifting/being pulled about. This making it do so you're going to see some jitter and your avatar wanting to correct or fight the leash/pulling in specific scenarios. It's meant to be fun, not perfect. 
+
+That being said, the install link is found in releases. I recommend the .msi installer for OSCLeash ( https://github.com/ZenithVal/OSCLeash/releases )
+
+**You're invited to read through the instructions and FAQ if it helps understand things a little easier, but note if you follow any of the steps you -will- break the system I built.** 
+
+Once you have OSCLeash installed, run it so it sets itself up, then navigate to whichever drive you installed it to + \AppData\Local\Programs\OSCLeash. There you will find a Config.JSON file, replace it with the one I have provided. Close and relaunch OSCLeash to apply.
+
+
+Now if you made it this far, I'm proud of you! Almost there just a couple more notes about general use with my harness and OSCLeash~
+
+Depending on requests or how people react to the settings I made, I made provide additional .JSON's in case if it makes anyone nauseous (beyond being pulled around that is. If that's normally a thing that makes you nauseous there's not much I can do about that).
+
+1."WHY CANT ANYONE GRAB MY HANDLE AND MOVE ME AROUND?!"
+
+GREAT QUESTION. One I spent days trying to come up with a solution for. Answer, normally you grab something without thinking with your palm facing DOWN. The leash works flawlessly like that as it should. But the HANDLE you have to have your PALM FACING UP as you grab it.
+
+2. "Now that they figured out how to pull my handle, why do I stop moving when they drag it back but I'm watching it STRETCH?!"
+
+YEP. This part may be a little frustrating but there's a learning curve. Chances are they're moving back too fast. When they grab your handle there's a device that has to remain in their hand for the pull function to work. If they move too quick, chances are it lagged out of their hand. The front handle needs to be pulled with a bit of finesse because of that. This is non issue for the leash because it has no such device. 
+
+What I recommend for both of these issues, and if you want to teach someone how to grab that handle;
+(while in game) Settings, Debug, and under Avatar Debugging, change Avatar Overlay to 'contacts'. There'll be a blue ball in your chest so they know where they should be underhand-grabbing. 
+
+3. "I'm being grabbed but not moving anywhere!"
+
+In Settings, Avatars, Avatar Interactions:
+Doublecheck that you have "Pause Avatar Interactions" turned off
+Have Avatar "Self Interact" turned on
+
+4. "I'm being grabbed and my avatar is FREAKING OUT ALL CRAZY LIKE!"
+
+There's a hilarious bug where if the world has avatar grabbing/moving enabled this will happen. Basically the moving function magnifies, then where normally you're locked to a horizontal range of motion, the world will stack laterally on top of it. At that point you're a kite to whoever is holding your leash.   
+
+If anyone finds a solution to the aforementioned bugs and issues feel free to reach out to me and I'll include them in an update where possible. 
+
+5. "Why is my avatar broken and a fallback android in VRChat?"
+You uploaded the avatar without removing the helper scripts I made to reposition the named points on the avatar. Clicking 'autofix' will delete them. I recommend duplicating the helpers and moving them outside of the avatars hierarchy so they can remain in the scene. VRCFury will automatically delete the spheres.
+
+With all that aside, hope everyone has fun with their harness! If you have any questions, comments or concerns that aren't in this you can find me over at https://x.com/AviworksVR
+
+
+~Avi
+
+
+Shoutout to the people who make OSCLeash possible!
+ZenithVal (https://x.com/zenithval) 
+Aleonic (https://github.com/Aleonic)
+CyberKitsune (https://x.com/CyberKitsune)
+Noideaman (https://weebvr.social/@noideaman)

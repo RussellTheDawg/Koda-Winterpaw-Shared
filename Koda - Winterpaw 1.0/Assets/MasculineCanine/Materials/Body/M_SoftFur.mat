@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_SoftFur
-  m_Shader: {fileID: 4800000, guid: c31951bfe0deac54d9173335d3578815, type: 3}
+  m_Shader: {fileID: 4800000, guid: 755838c4f8290a149bf7625eafc25405, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -1708,7 +1708,7 @@ Material:
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
     - _MochieSpecularMaskInvert: 0
-    - _MochieSpecularStrength: 2.5
+    - _MochieSpecularStrength: 1
     - _MochieSpecularStrength2: 1
     - _MochieSpecularStrengthGlobalMask: 0
     - _MochieSpecularStrengthGlobalMaskBlendType: 2
@@ -2599,12 +2599,12 @@ Material:
     - m_end_videoEffects: 0
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
-    - m_lightingCategory: 0
+    - m_lightingCategory: 1
     - m_mainCategory: 1
     - m_modifierCategory: 1
     - m_postprocessing: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 1
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -2711,7 +2711,7 @@ Material:
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
-    - m_start_brdf: 0
+    - m_start_brdf: 1
     - m_start_brdfadvanced: 0
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 0

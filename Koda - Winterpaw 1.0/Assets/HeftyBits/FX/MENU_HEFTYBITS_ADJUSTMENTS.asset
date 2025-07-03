@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: MENU_HEFTYBITS_ADJUSTMENTS
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: Ball size
+    icon: {fileID: 2800000, guid: 41e5f9d1e74e96a4ca5300be7a05863d, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: HeftyBits/JunkBallSize
+    labels: []
+  - name: Cock size
+    icon: {fileID: 2800000, guid: 41e5f9d1e74e96a4ca5300be7a05863d, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: HeftyBits/JunkCockSize
+    labels: []
+  - name: Foreskin
+    icon: {fileID: 2800000, guid: 9f97ccdd19558de48a6f2f5e4ff623f9, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: HeftyBits/JunkForeskin
+    labels: []
+  - name: Cut
+    icon: {fileID: 2800000, guid: 6d4a438912d0cff4ab2974127fa683b8, type: 3}
+    type: 102
+    parameter:
+      name: HeftyBits/JunkCut
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Ball Sag
+    icon: {fileID: 2800000, guid: f3469c26a45895a4e8bbedf0ca69b4e4, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: HeftyBits/JunkBallSag
+    labels: []
+  - name: Ball Resize Variation
+    icon: {fileID: 2800000, guid: 271024151e7e2464885b974b1633978b, type: 3}
+    type: 102
+    parameter:
+      name: HeftyBits/JunkBallSizeAlt
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

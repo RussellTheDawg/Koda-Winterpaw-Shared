@@ -1,0 +1,14 @@
+[AVW]Bootyshorts Instructions:
+
+Simply click and drag onto your avatars hierarchy and you're good to go!
+
+Some things to note:
+-If you activate the object in the scene to see it, make sure you deactivate it as you found it! Otherwise it wont toggle properly in game. 
+-If you need to resize your collider due to using a bigger blendshape, you're looking for the "String.root" bone in Armature. Small adjustments in Radius and Height would be all you need. 
+-You may have to adjust your strings! For those, you're wanting the POSITION of the X,Y,Z coordinates in play mode for StringA_01 and StringB_01. Reapply coordinates in scene more and you're set!
+
+
+If you have any questions, comments or concerns that aren't in this you can find me over at https://x.com/AviworksVR
+
+
+~Avi

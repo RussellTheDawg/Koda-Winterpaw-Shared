@@ -2584,7 +2584,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/7467063fbbc0f5f4882c03561f2d84f5"
 				indirectLight.diffuse = max(indirectLight.diffuse + (0.0 /*_PPLightingAddition*/), 0);
 				#endif
 				poiLight.rampedLightMap = poiLight.nDotLSaturated;
-				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.0 /*_LightingMinLightBrightness*/));
+				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.3 /*_LightingMinLightBrightness*/));
 				#endif
 				if (poiFragData.toggleVertexLights)
 				{
@@ -3635,19 +3635,19 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/7467063fbbc0f5f4882c03561f2d84f5"
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if ((0.0 /*_LightingColorMode*/) == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, (0.0 /*_LightingMinLightBrightness*/));
+					poiLight.directColor = max(poiLight.directColor, (0.3 /*_LightingMinLightBrightness*/));
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				if ((1.0 /*_LightingCapEnabled*/))
 				{
-					poiLight.directColor = min(poiLight.directColor, (1.0 /*_LightingCap*/));
-					poiLight.indirectColor = min(poiLight.indirectColor, (1.0 /*_LightingCap*/));
+					poiLight.directColor = min(poiLight.directColor, (0.8 /*_LightingCap*/));
+					poiLight.indirectColor = min(poiLight.indirectColor, (0.8 /*_LightingCap*/));
 				}
 				if ((0.0 /*_LightingForceColorEnabled*/))
 				{
@@ -6020,7 +6020,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/7467063fbbc0f5f4882c03561f2d84f5"
 				indirectLight.diffuse = max(indirectLight.diffuse + (0.0 /*_PPLightingAddition*/), 0);
 				#endif
 				poiLight.rampedLightMap = poiLight.nDotLSaturated;
-				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.0 /*_LightingMinLightBrightness*/));
+				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.3 /*_LightingMinLightBrightness*/));
 				#endif
 				if (poiFragData.toggleVertexLights)
 				{
@@ -7071,19 +7071,19 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/7467063fbbc0f5f4882c03561f2d84f5"
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if ((0.0 /*_LightingColorMode*/) == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, (0.0 /*_LightingMinLightBrightness*/));
+					poiLight.directColor = max(poiLight.directColor, (0.3 /*_LightingMinLightBrightness*/));
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				if ((1.0 /*_LightingCapEnabled*/))
 				{
-					poiLight.directColor = min(poiLight.directColor, (1.0 /*_LightingCap*/));
-					poiLight.indirectColor = min(poiLight.indirectColor, (1.0 /*_LightingCap*/));
+					poiLight.directColor = min(poiLight.directColor, (0.8 /*_LightingCap*/));
+					poiLight.indirectColor = min(poiLight.indirectColor, (0.8 /*_LightingCap*/));
 				}
 				if ((0.0 /*_LightingForceColorEnabled*/))
 				{
