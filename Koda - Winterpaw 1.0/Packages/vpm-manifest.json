@@ -3,9 +3,6 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
-    "wholesomevr.sps-configurator": {
-      "version": "2.0.11"
-    },
     "de.thryrallo.vrc.avatar-performance-tools": {
       "version": "1.3.7"
     },
@@ -23,18 +20,15 @@
     },
     "com.furality.somnashader": {
       "version": "1.0.2"
+    },
+    "wholesomevr.sps-configurator": {
+      "version": "2.0.11"
     }
   },
   "locked": {
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
-    },
-    "wholesomevr.sps-configurator": {
-      "version": "2.0.11",
-      "dependencies": {
-        "com.vrchat.avatars": "3.*"
-      }
     },
     "de.thryrallo.vrc.avatar-performance-tools": {
       "version": "1.3.7",
@@ -79,6 +73,12 @@
     "com.llealloo.audiolink": {
       "version": "2.1.0",
       "dependencies": {}
+    },
+    "wholesomevr.sps-configurator": {
+      "version": "2.0.11",
+      "dependencies": {
+        "com.vrchat.avatars": "3.*"
+      }
     }
   }
 }

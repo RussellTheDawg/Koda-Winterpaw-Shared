@@ -32,14 +32,15 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     OptimizedShaderFolder: Wolf_Soft
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT GEOM_TYPE_BRANCH MOCHIE_PBR POI_AUDIOLINK
-      POI_EMISSION_1 POI_VERTEX_GLITCHING VIGNETTE_MASKED _EMISSION _LIGHTINGMODE_FLAT
-      _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT GEOM_TYPE_BRANCH GEOM_TYPE_BRANCH_DETAIL
+      MOCHIE_PBR POI_AUDIOLINK POI_EMISSION_1 POI_VERTEX_GLITCHING VIGNETTE_MASKED
+      _EMISSION _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1
-    _DecalBlendAlphaAnimated: 1
+    _DecalBlendAlpha1Animated: 1
+    _DecalEmissionStrengthAnimated: 1
     _EmissionCenterOutEnabledAnimated: 1
     _EmissionStrength1Animated: 1
     _EmissionStrengthAnimated: 1
@@ -332,7 +333,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b99ebb1ea45d42f428d25e93f04703f4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0b6183b6e051c1145b9dcb4fcef7f341, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -1044,7 +1045,7 @@ Material:
     - _Decal3VideoEnabled: 0
     - _Decal3VideoFitToScale: 1
     - _DecalBlendAlpha: 0
-    - _DecalBlendAlpha1: 1
+    - _DecalBlendAlpha1: 0
     - _DecalBlendAlpha2: 1
     - _DecalBlendAlpha3: 1
     - _DecalBlendType: 0
@@ -3057,14 +3058,14 @@ Material:
     - m_start_ColorAdjust: 0
     - m_start_CubeMap: 0
     - m_start_Decal0: 0
-    - m_start_Decal0AudioLink: 1
+    - m_start_Decal0AudioLink: 0
     - m_start_Decal1: 1
     - m_start_Decal1AudioLink: 0
     - m_start_Decal2: 0
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
-    - m_start_DecalSection: 0
+    - m_start_DecalSection: 1
     - m_start_DepthBulge: 0
     - m_start_DetailOptions: 0
     - m_start_DistortionAudioLink: 0
@@ -3672,7 +3673,7 @@ Material:
     - _AudioLinkFlipbookEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookFrame: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookScale: {r: 0, g: 0, b: 0, a: 0}
-    - _AudioLinkOutlineColor: {r: 0.8113208, g: 0.4518803, b: 0.12629052, a: 1}
+    - _AudioLinkOutlineColor: {r: 0.8113207, g: 0.45188028, b: 0.12629044, a: 1}
     - _AudioLinkOutlineColorMod: {r: 0, g: 4, b: 0, a: 0}
     - _AudioLinkOutlineEmission: {r: 0, g: 4, b: 0, a: 0}
     - _AudioLinkOutlineSize: {r: 0, g: 0.5, b: 0, a: 0}
@@ -3876,7 +3877,7 @@ Material:
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingWrappedColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 0.90588236, g: 0.90588236, b: 0.18431365, a: 1}
+    - _LineColor: {r: 0.90588236, g: 0.90588236, b: 0.1843136, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6988149326050351671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1267342568888155519, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27756ad7e777dad409bcb635f424afc8, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      propertyPath: m_Name
+      value: AVW Tanktop Under
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1016751522648227919}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2104246620534409261}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9180030286045460531}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d70a7b49a0b056429676fa998052356,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4641165606527457223}
+  m_SourcePrefab: {fileID: 100100000, guid: 2d70a7b49a0b056429676fa998052356, type: 3}
+--- !u!1 &946778317433085163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1307938262371154212, guid: 2d70a7b49a0b056429676fa998052356,
+    type: 3}
+  m_PrefabInstance: {fileID: 6988149326050351671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1050352928837933238 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1267342568888155519, guid: 2d70a7b49a0b056429676fa998052356,
+    type: 3}
+  m_PrefabInstance: {fileID: 6988149326050351671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7798982315762313062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2d70a7b49a0b056429676fa998052356,
+    type: 3}
+  m_PrefabInstance: {fileID: 6988149326050351671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1016751522648227919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798982315762313062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1162.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5908294354513691343
+  references:
+    version: 2
+    RefIds:
+    - rid: 5908294354513691343
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 946778317433085163}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 0
+        alignScale: 1
+        autoScaleFactor: 0
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &2104246620534409261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798982315762313062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1162.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5908294354513691345
+  references:
+    version: 2
+    RefIds:
+    - rid: 5908294354513691345
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 5908294354513691348
+    - rid: 5908294354513691348
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 7798982315762313062}
+        mode: 1
+--- !u!114 &9180030286045460531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798982315762313062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1162.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5908294354513691356
+  references:
+    version: 2
+    RefIds:
+    - rid: 5908294354513691356
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/AVW Tanktop Under
+        state:
+          actions:
+          - rid: 5908294354513691359
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 5908294354513691359
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 7798982315762313062}
+        mode: 0
+--- !u!114 &4641165606527457223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798982315762313062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1162.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5908294354513691387
+  references:
+    version: 2
+    RefIds:
+    - rid: 5908294354513691387
+      type: {class: BlendShapeLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        objs: []
+        linkSkins:
+        - renderer: {fileID: 1050352928837933238}
+        baseObj: Body
+        includeAll: 1
+        exactMatch: 0
+        excludes: []
+        includes: []

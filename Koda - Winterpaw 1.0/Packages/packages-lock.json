@@ -6,12 +6,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.furality.sdk": {
-      "version": "file:com.furality.sdk",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.furality.somnashader": {
       "version": "file:com.furality.somnashader",
       "depth": 0,

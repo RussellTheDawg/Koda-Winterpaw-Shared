@@ -90,12 +90,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8391084790074033614}
   m_SourcePrefab: {fileID: 100100000, guid: fd49124a7533df944b1e58bd736195e1, type: 3}
---- !u!137 &5026865184335448407 stripped
-SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1936746753888114855, guid: fd49124a7533df944b1e58bd736195e1,
-    type: 3}
-  m_PrefabInstance: {fileID: 6855524994860159472}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6044638260209036449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fd49124a7533df944b1e58bd736195e1,
@@ -116,7 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1240.0
   somethingIsBroken: 0
   config:
     features: []
@@ -170,7 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1240.0
   somethingIsBroken: 0
   config:
     features: []
@@ -185,7 +179,7 @@ MonoBehaviour:
         version: 1
         objs: []
         linkSkins:
-        - renderer: {fileID: 5026865184335448407}
+        - renderer: {fileID: 0}
         baseObj: Body
         includeAll: 1
         exactMatch: 0
@@ -205,16 +199,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1240.0
   somethingIsBroken: 0
   config:
     features: []
   content:
-    rid: 920217632590004293
+    rid: 920217654335111223
   references:
     version: 2
     RefIds:
-    - rid: 920217632590004293
+    - rid: 920217654335111223
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 4
@@ -235,7 +229,7 @@ MonoBehaviour:
             id: 531ffcd1373a4ea45a991dad86aa4d6f|Assets/Clothing Edits/Elbow knee
               pads Edit/Animations/PadsMenu.asset
             objRef: {fileID: 11400000, guid: 531ffcd1373a4ea45a991dad86aa4d6f, type: 2}
-          prefix: Clothing/Knee Pads
+          prefix: Clothing/EnK Pads
         prms:
         - parameters:
             version: 1
@@ -251,7 +245,10 @@ MonoBehaviour:
         toggleParam: 
         rootObjOverride: {fileID: 0}
         rootBindingsApplyToAvatar: 0
-        rewriteBindings: []
+        rewriteBindings:
+        - from: EnK Pads Edit
+          to: 
+          delete: 0
         allowMissingAssets: 0
         injectSpsDepthParam: 
         injectSpsVelocityParam: 

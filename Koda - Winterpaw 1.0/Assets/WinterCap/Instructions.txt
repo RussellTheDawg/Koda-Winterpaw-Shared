@@ -1,0 +1,18 @@
+Winterpaw Hat Instructions: 
+
+note: Using this hat will require you to hide your actual hair as it has it's own. Can be hidden by clicking off the mullet or mohawk hair underneath your "body" in your avatar's heirarchy. Toggles will require the same. 
+
+
+1. choose a prefab; either the mohawk or mullet variants. Drag and drop on the root of your avatar in the Hierarchy(the name your avatar). If done correctly, the hat should line up with your head. 
+
+2. right click on the hat in your heirarchy and click "unpack prefab". once done, click and drag the "head" bone located under the armature for the hat and drop it on the "head" bone on your avatar's armature.
+
+3. Use your normal hair materials on the hat hair. they will line up like normal. 
+
+4.Enjoy! Textures have materials in the "textures" folder. Combine materials any way you like. 
+
+
+questions: message me on discord: CAD#9124 
+
+
+
