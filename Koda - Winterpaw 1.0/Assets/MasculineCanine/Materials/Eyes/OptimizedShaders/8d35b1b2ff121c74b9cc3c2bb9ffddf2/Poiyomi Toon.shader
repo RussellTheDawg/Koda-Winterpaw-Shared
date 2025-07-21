@@ -530,7 +530,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/8d35b1b2ff121c74b9cc3c2bb9ffddf2"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -4152,7 +4151,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/8d35b1b2ff121c74b9cc3c2bb9ffddf2"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -7563,7 +7561,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/8d35b1b2ff121c74b9cc3c2bb9ffddf2"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -9943,7 +9940,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/8d35b1b2ff121c74b9cc3c2bb9ffddf2"
 				#ifdef POI_AUDIOLINK
 				if (poiMods.audioLinkAvailable)
 				{
-					emission += lerp(float4(0,10,0,0).x, float4(0,10,0,0).y, poiMods.audioLink[(1.0 /*_AudioLinkOutlineEmissionBand*/)]);
+					emission += lerp(float4(0,4,0,0).x, float4(0,4,0,0).y, poiMods.audioLink[(1.0 /*_AudioLinkOutlineEmissionBand*/)]);
 				}
 				#endif
 				poiFragData.emission += poiFragData.baseColor * emission;
@@ -10759,7 +10756,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/8d35b1b2ff121c74b9cc3c2bb9ffddf2"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_EMISSIONMASK 
- #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0

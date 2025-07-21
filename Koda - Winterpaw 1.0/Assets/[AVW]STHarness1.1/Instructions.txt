@@ -1,0 +1,34 @@
+Installation:
+
+Due to everything being preset with VRCFury, it's a simple click and drag onto the MasculineCanine prefab in the hierarchy. If you see a green + icon, you did it correctly!
+
+If you wish to rescale the size of the bulge, in the harness Armature, the bone you want to resize is Bulge.2. There's a very delicate seam in that area and if anything before Bulge.2 is edited it may break it. If you did break it, with the bone selected click the three dot icon in the transform tab, and click reset.
+
+The bulge is detatchable! In the Blendshape tab you will find a "Hoop" blendshape to accomodate most. Easiest way for this to play nicely is to find a size that fits you (example, 80), then in the animations folder select BulgeOFF and place that number in the according Skinned Mesh Renderer/Hoop. Don't forget to set the harness back to 0 when finished.
+
+The 'Chestflatten' corrective blendshape is default on, intended for buff body shapes when it may be preferable to have a bit of a bend for the chest at a lower value. 
+
+Recoloring: 
+
+I tried to lay everything out as straight forward as possible, with some examples.
+-First you choose which of the texture 'sets' you want. Puppy, iDick, Service Dog etc.
+-Second in the colors folder there is an array of options you have available to you. Simply navigate to the Poiyomi shader and drag into the texture location in Color & Normals.
+
+BUT
+
+This Harness DOES USE BACKFACES, if you do not ALSO take your chosen color and apply it in the Backface tab's texture, the inner lining will be mismatched. It will save some Vram using the same color in both locations, mixing and matching will make you consume more Vram.
+
+
+Advanced Recoloring:
+
+I have included a Substance Painter file if you wish to have further customization where metallics and logos are set up to be as stress free as possible. Want a different tag? Any alpha could be used in the front and back mask fill layers.
+
+Note:
+
+If you wish to change anything BUT color, the normal, roughness and specular maps will thus need to be updated/repacked accordingly. Please reference the material folders to obtain similar results. 
+
+
+Troubleshooting and handy tips:
+
+-If you're resizing the bulge, take care to only scale only the Bulge.2 bone. It will break things.
+-If you use the CHONKY/BUFF slider in game, you will need to (and ultimately this is the safest bet for anyone if you use any combination of blendshapes and the hook ends up in your chest) go into the blendshape dropdown menu in Unity, find your blendshapes that make you larger, and simply MOVE the bone (reference the big blue arrow in the picture on Gumroad pointing to the bone you need)into the apropriate within the hoop. should only be a mild nudge on the Z axis. When it's perfectly centered in the hoop, then you scale it larger (uniformly). 
