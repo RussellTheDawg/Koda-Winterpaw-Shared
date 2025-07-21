@@ -1361,7 +1361,7 @@ Material:
     - _LightingAdditiveMonochromatic: 1
     - _LightingAdditivePassthrough: 0.5
     - _LightingAdditiveType: 3
-    - _LightingCap: 1
+    - _LightingCap: 0.8
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 1
     - _LightingColorMode: 0
@@ -1379,7 +1379,7 @@ Material:
     - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 1
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0
+    - _LightingMinLightBrightness: 0.3
     - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 6
     - _LightingMonochromatic: 1
@@ -2634,7 +2634,7 @@ Material:
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 1
-    - m_start_PoiLightData: 0
+    - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 0
     - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0

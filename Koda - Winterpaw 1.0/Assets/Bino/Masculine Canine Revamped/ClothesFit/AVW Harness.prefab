@@ -209,6 +209,7 @@ MonoBehaviour:
   integrationType: 0
   rootTransform: {fileID: 0}
   ignoreTransforms: []
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0.04, z: 0}
   multiChildType: 0
   pull: 0.15
@@ -369,7 +370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -423,7 +424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -458,7 +459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -471,7 +472,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/AVW Harness/Toggle
+        name: Clothing/Harnesses/ST/Toggle
         state:
           actions:
           - rid: 5908294360072716483
@@ -542,7 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -582,7 +583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -595,7 +596,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/AVW Harness/No Bulge
+        name: Clothing/Harnesses/ST/No Bulge
         state:
           actions:
           - rid: 5908294454339960834
@@ -670,7 +671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -683,7 +684,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/AVW Harness/AudioLink
+        name: Clothing/Harnesses/ST/AudioLink
         state:
           actions:
           - rid: 5908294454339960833
@@ -758,7 +759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -771,7 +772,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/AVW Harness/Emissive
+        name: Clothing/Harnesses/ST/Emissive
         state:
           actions:
           - rid: 5908294454339960833
@@ -846,7 +847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1162.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -859,7 +860,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/AVW Harness/HUE Slider
+        name: Clothing/Harnesses/ST/HUE Slider
         state:
           actions:
           - rid: 5908294454339960836
@@ -950,6 +951,7 @@ MonoBehaviour:
   integrationType: 0
   rootTransform: {fileID: 0}
   ignoreTransforms: []
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
   multiChildType: 0
   pull: 0.5

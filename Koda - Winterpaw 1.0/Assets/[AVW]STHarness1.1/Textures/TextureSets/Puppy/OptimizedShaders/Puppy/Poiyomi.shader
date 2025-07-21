@@ -1,4 +1,4 @@
-Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3ee13ce9c"
+Shader "Hidden/Locked/.poiyomi/Old Versions/8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3ee13ce9c"
 {
 	Properties
 	{
@@ -96,7 +96,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 		_BackFaceHueShiftSpeed ("Hue Shift Speed--{condition_showS:(_BackFaceHueShiftEnabled==1)}", Float) = 0
 		[HideInInspector] m_end_backFace ("Back Face", Float) = 0
 		[HideInInspector] m_start_DecalSection ("Decals--{button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/decals},hover:YouTube}}", Float) = 0
-		[sRGBWarning][ThryRGBAPacker(Decal 0 Mask, Decal 1 Mask, Decal 2 Mask, Decal 3 Mask)]_DecalMask ("Decal RGBA Mask--{reference_properties:[_DecalMaskPan, _DecalMaskUV]}", 2D) = "white" { }
+		[sRGBWarning]_DecalMask ("Decal RGBA Mask--{reference_properties:[_DecalMaskPan, _DecalMaskUV]}", 2D) = "white" { }
 		[HideInInspector][Vector2]_DecalMaskPan ("Panning", Vector) = (0, 0, 0, 0)
 		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _DecalMaskUV ("UV", Int) = 0
 		[HideInInspector] g_start_DecalTPSMaskGroup ("--{condition_showS:(_TPSPenetratorEnabled==1)}", Float) = 0
@@ -234,7 +234,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 		_MochieSpecularTint ("Specular Tint--{reference_property:_MochieSpecularTintThemeIndex}", Color) = (1, 1, 1, 1)
 		[HideInInspector][ThryWideEnum(Off, 0, Theme Color 0, 1, Theme Color 1, 2, Theme Color 2, 3, Theme Color 3, 4, ColorChord 0, 5, ColorChord 1, 6, ColorChord 2, 7, ColorChord 3, 8, AL Theme 0, 9, AL Theme 1, 10, AL Theme 2, 11, AL Theme 3, 12)] _MochieSpecularTintThemeIndex ("", Int) = 0
 		[Space(8)]
-		[sRGBWarning][ThryRGBAPacker(R Metallic Map, G Smoothness Map, B Reflection Mask, A Specular Mask)]_MochieMetallicMaps ("Packed Maps [Expand]--{reference_properties:[_MochieMetallicMapsPan, _MochieMetallicMapsUV, _MochieMetallicMapsStochastic, _MochieMetallicMapsMetallicChannel, _MochieMetallicMapsRoughnessChannel, _MochieMetallicMapsReflectionMaskChannel, _MochieMetallicMapsSpecularMaskChannel, _MochieMetallicMapInvert, _MochieRoughnessMapInvert, _MochieReflectionMaskInvert, _MochieSpecularMaskInvert]}", 2D) = "white" { }
+		[sRGBWarning]_MochieMetallicMaps ("Packed Maps [Expand]--{reference_properties:[_MochieMetallicMapsPan, _MochieMetallicMapsUV, _MochieMetallicMapsStochastic, _MochieMetallicMapsMetallicChannel, _MochieMetallicMapsRoughnessChannel, _MochieMetallicMapsReflectionMaskChannel, _MochieMetallicMapsSpecularMaskChannel, _MochieMetallicMapInvert, _MochieRoughnessMapInvert, _MochieReflectionMaskInvert, _MochieSpecularMaskInvert]}", 2D) = "white" { }
 		[HideInInspector][Vector2]_MochieMetallicMapsPan ("Panning", Vector) = (0, 0, 0, 0)
 		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)]_MochieMetallicMapsUV ("UV", Int) = 0
 		[HideInInspector][ToggleUI]_MochieMetallicMapsStochastic ("Stochastic Sampling", Float) = 0
@@ -534,9 +534,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 			#define POI_MODE_MULTIPLICATIVE 6
 			#define POI_MODE_2XMULTIPLICATIVE 7
 			#define POI_MODE_TRANSCLIPPING 9
-			#define POI_DECLARETEX_ST_UV(tex) float4 tex##_ST; float tex##UV;
-			#define POI_DECLARETEX_ST_UV_PAN(tex) float4 tex##_ST; float2 tex##Pan; float tex##UV;
-			#define POI_DECLARETEX_ST_UV_PAN_STOCHASTIC(tex) float4 tex##_ST; float2 tex##Pan; float tex##UV; float tex##Stochastic;
 			#define ALPASS_DFT                      uint2(0,4)   //Size: 128, 2
 			#define ALPASS_WAVEFORM                 uint2(0,6)   //Size: 128, 16
 			#define ALPASS_AUDIOLINK                uint2(0,0)   //Size: 128, 4
@@ -857,7 +854,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 			Texture2D _MochieMetallicMaps;
 			float _PBRMapsStochastic;
 			#endif
-			POI_DECLARETEX_ST_UV_PAN_STOCHASTIC(_MochieMetallicMaps);
+			float4 _MochieMetallicMaps_ST; float2 _MochieMetallicMapsPan; float _MochieMetallicMapsUV; float _MochieMetallicMapsStochastic;
 			float _MochieMetallicMapInvert;
 			float _MochieRoughnessMapInvert;
 			float _MochieReflectionMaskInvert;
@@ -2959,7 +2956,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 				indirectLight.diffuse = max(indirectLight.diffuse + (0.0 /*_PPLightingAddition*/), 0);
 				#endif
 				poiLight.rampedLightMap = poiLight.nDotLSaturated;
-				poiLight.finalLighting = max(UNITY_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.0 /*_LightingMinLightBrightness*/));
+				poiLight.finalLighting = max(UNITY_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.3 /*_LightingMinLightBrightness*/));
 				#endif
 				if ((1.0 /*_LightingVertexLightingEnabled*/))
 				{
@@ -3725,19 +3722,19 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if ((0.0 /*_LightingColorMode*/) == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, (0.0 /*_LightingMinLightBrightness*/));
+					poiLight.directColor = max(poiLight.directColor, (0.3 /*_LightingMinLightBrightness*/));
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				if ((1.0 /*_LightingCapEnabled*/))
 				{
-					poiLight.directColor = min(poiLight.directColor, (1.0 /*_LightingCap*/));
-					poiLight.indirectColor = min(poiLight.indirectColor, (1.0 /*_LightingCap*/));
+					poiLight.directColor = min(poiLight.directColor, (0.8 /*_LightingCap*/));
+					poiLight.indirectColor = min(poiLight.indirectColor, (0.8 /*_LightingCap*/));
 				}
 				if ((0.0 /*_LightingForceColorEnabled*/))
 				{
@@ -3972,9 +3969,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 			#define POI_MODE_MULTIPLICATIVE 6
 			#define POI_MODE_2XMULTIPLICATIVE 7
 			#define POI_MODE_TRANSCLIPPING 9
-			#define POI_DECLARETEX_ST_UV(tex) float4 tex##_ST; float tex##UV;
-			#define POI_DECLARETEX_ST_UV_PAN(tex) float4 tex##_ST; float2 tex##Pan; float tex##UV;
-			#define POI_DECLARETEX_ST_UV_PAN_STOCHASTIC(tex) float4 tex##_ST; float2 tex##Pan; float tex##UV; float tex##Stochastic;
 			#define ALPASS_DFT                      uint2(0,4)   //Size: 128, 2
 			#define ALPASS_WAVEFORM                 uint2(0,6)   //Size: 128, 16
 			#define ALPASS_AUDIOLINK                uint2(0,0)   //Size: 128, 4
@@ -4235,7 +4229,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 			Texture2D _MochieMetallicMaps;
 			float _PBRMapsStochastic;
 			#endif
-			POI_DECLARETEX_ST_UV_PAN_STOCHASTIC(_MochieMetallicMaps);
+			float4 _MochieMetallicMaps_ST; float2 _MochieMetallicMapsPan; float _MochieMetallicMapsUV; float _MochieMetallicMapsStochastic;
 			float _MochieMetallicMapInvert;
 			float _MochieRoughnessMapInvert;
 			float _MochieReflectionMaskInvert;
@@ -6333,7 +6327,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 				indirectLight.diffuse = max(indirectLight.diffuse + (0.0 /*_PPLightingAddition*/), 0);
 				#endif
 				poiLight.rampedLightMap = poiLight.nDotLSaturated;
-				poiLight.finalLighting = max(UNITY_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.0 /*_LightingMinLightBrightness*/));
+				poiLight.finalLighting = max(UNITY_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, (0.3 /*_LightingMinLightBrightness*/));
 				#endif
 				if ((1.0 /*_LightingVertexLightingEnabled*/))
 				{
@@ -6962,19 +6956,19 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if ((0.0 /*_LightingColorMode*/) == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, (0.0 /*_LightingMinLightBrightness*/));
+					poiLight.directColor = max(poiLight.directColor, (0.3 /*_LightingMinLightBrightness*/));
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.0 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.3 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				if ((1.0 /*_LightingCapEnabled*/))
 				{
-					poiLight.directColor = min(poiLight.directColor, (1.0 /*_LightingCap*/));
-					poiLight.indirectColor = min(poiLight.indirectColor, (1.0 /*_LightingCap*/));
+					poiLight.directColor = min(poiLight.directColor, (0.8 /*_LightingCap*/));
+					poiLight.indirectColor = min(poiLight.indirectColor, (0.8 /*_LightingCap*/));
 				}
 				if ((0.0 /*_LightingForceColorEnabled*/))
 				{
@@ -7204,9 +7198,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.1/Poiyomi Toon/6fc448943d8233f4386bf0e3
 			#define POI_MODE_MULTIPLICATIVE 6
 			#define POI_MODE_2XMULTIPLICATIVE 7
 			#define POI_MODE_TRANSCLIPPING 9
-			#define POI_DECLARETEX_ST_UV(tex) float4 tex##_ST; float tex##UV;
-			#define POI_DECLARETEX_ST_UV_PAN(tex) float4 tex##_ST; float2 tex##Pan; float tex##UV;
-			#define POI_DECLARETEX_ST_UV_PAN_STOCHASTIC(tex) float4 tex##_ST; float2 tex##Pan; float tex##UV; float tex##Stochastic;
 			#define ALPASS_DFT                      uint2(0,4)   //Size: 128, 2
 			#define ALPASS_WAVEFORM                 uint2(0,6)   //Size: 128, 16
 			#define ALPASS_AUDIOLINK                uint2(0,0)   //Size: 128, 4

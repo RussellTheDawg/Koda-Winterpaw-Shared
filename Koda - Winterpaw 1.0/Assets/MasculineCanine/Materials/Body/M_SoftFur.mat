@@ -610,7 +610,7 @@ Material:
     - _Decal3VideoEnabled: 0
     - _Decal3VideoFitToScale: 1
     - _DecalBlendAlpha: 0
-    - _DecalBlendAlpha1: 1
+    - _DecalBlendAlpha1: 0
     - _DecalBlendAlpha2: 1
     - _DecalBlendAlpha3: 1
     - _DecalBlendType: 0
