@@ -57,6 +57,7 @@ MonoBehaviour:
   rootTransform: {fileID: 896247438438719653}
   ignoreTransforms:
   - {fileID: 2354626313892403077}
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
   multiChildType: 0
   pull: 0.3
@@ -5019,13 +5020,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 0003040508
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -5092,6 +5095,7 @@ MonoBehaviour:
   rootTransform: {fileID: 2354626313892403077}
   ignoreTransforms:
   - {fileID: 2857242431749693287}
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0.015, z: 0}
   multiChildType: 0
   pull: 0.7
@@ -5276,6 +5280,7 @@ MonoBehaviour:
   integrationType: 0
   rootTransform: {fileID: 2857242431749693287}
   ignoreTransforms: []
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0.006, z: 0}
   multiChildType: 0
   pull: 0.2
@@ -5496,6 +5501,7 @@ MonoBehaviour:
   rootTransform: {fileID: 2354626313892403077}
   ignoreTransforms:
   - {fileID: 2857242431749693287}
+  ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0.015, z: 0}
   multiChildType: 0
   pull: 0.35
@@ -5749,6 +5755,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 9
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
   autoRenderer: 1
   autoPosition: 1
   autoLength: 1
@@ -5778,10 +5786,10 @@ MonoBehaviour:
   spsKeepImports: 0
   postBakeActions:
     actions: []
-    ResetMePlease2: 0
   spsOverrun: 1
   enableDepthAnimations: 0
   depthActions: []
+  depthActions2: []
   useHipAvoidance: 1
   configureSps: 0
   spsBoneMask: 1
@@ -10634,13 +10642,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 0003040508
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -15484,13 +15494,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 0003040508
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -15632,7 +15644,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 277877045e9380644ad18f70a6cd96b3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5542545022952880557}
+      addedObject: {fileID: 336388989705006460}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 277877045e9380644ad18f70a6cd96b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8556085112580917254}
   m_SourcePrefab: {fileID: 100100000, guid: 277877045e9380644ad18f70a6cd96b3, type: 3}
 --- !u!1 &424142520054976956 stripped
 GameObject:
@@ -15640,7 +15656,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 658566293851024621}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5542545022952880557
+--- !u!114 &336388989705006460
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15652,16 +15668,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
-  config:
-    features:
-    - rid: 0
-    - rid: 1
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8473214253617381552
   references:
     version: 2
     RefIds:
-    - rid: 0
+    - rid: 8473214253617381552
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 4
@@ -15670,41 +15688,38 @@ MonoBehaviour:
             version: 1
             fileID: 9100000
             guid: 79c987e9aaa46d4428c2071632fd7dbe
-            id: 7e74364da4c706242b2d77de862e6452|Assets/Penis/FX/PenisFX.Cat2NoKnot.controller
+            id: 7e74364da4c706242b2d77de862e6452|Assets/NSFW Combined Folder/Penis/FX/PenisFX.Cat2NoKnot.controller
             objRef: {fileID: 9100000, guid: 7e74364da4c706242b2d77de862e6452, type: 2}
           type: 5
-          ResetMePlease2: 0
         menus:
         - menu:
             version: 1
             fileID: 11400000
             guid: b850a388f526de74aabf73337e2cd60b
-            id: b850a388f526de74aabf73337e2cd60b|Assets/Penis/FX/Menus/PenisMenu.asset
+            id: b850a388f526de74aabf73337e2cd60b|Assets/NSFW Combined Folder/Penis/FX/Menus/PenisMenu.asset
             objRef: {fileID: 11400000, guid: b850a388f526de74aabf73337e2cd60b, type: 2}
           prefix: Penis
-          ResetMePlease2: 0
         prms:
         - parameters:
             version: 1
             fileID: 11400000
             guid: 3b5df6628b7231048af3989af94cc083
-            id: 3b5df6628b7231048af3989af94cc083|Assets/Penis/FX/PenisParams.asset
+            id: 3b5df6628b7231048af3989af94cc083|Assets/NSFW Combined Folder/Penis/FX/PenisParams.asset
             objRef: {fileID: 11400000, guid: 3b5df6628b7231048af3989af94cc083, type: 2}
-          ResetMePlease2: 0
         smoothedPrms: []
         globalParams: []
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: penis.toggle
-        useSecurityForToggle: 0
         rootObjOverride: {fileID: 0}
         rootBindingsApplyToAvatar: 0
         rewriteBindings:
         - from: 
           to: 
           delete: 0
-          ResetMePlease2: 0
         allowMissingAssets: 0
+        injectSpsDepthParam: 
+        injectSpsVelocityParam: 
         controller:
           version: 1
           fileID: 0
@@ -15726,23 +15741,61 @@ MonoBehaviour:
         submenu: 
         removePrefixes: []
         addPrefix: Penis.Canine
-    - rid: 1
+        useSecurityForToggle: 0
+--- !u!114 &8556085112580917254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424142520054976956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8473214253617381551
+  references:
+    version: 2
+    RefIds:
+    - rid: 8473214253617381551
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 5
-        linkMode: 4
+        version: 7
         propBone: {fileID: 424142520054976956}
-        boneOnAvatar: 0
-        bonePathOnAvatar: 
-        keepBoneOffsets2: 0
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
         removeBoneSuffix: 
-        fallbackBones: 
-        skinRewriteScalingFactor: 0
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 0
         scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
         keepBoneOffsets: 0
         physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!4 &896247438438719653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 383842558162717768, guid: 277877045e9380644ad18f70a6cd96b3,

@@ -317,7 +317,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 68ea46fa1d7c6f44495bbe0d6e859e3a|Assets/[AVW]WP_Tanktop/Meshnet/PC_Meshnet
+          id: 68ea46fa1d7c6f44495bbe0d6e859e3a|Assets/Clothes Combined Folder/[AVW]WP_Tanktop/Meshnet/PC_Meshnet
             5.mat
           objRef: {fileID: 2100000, guid: 68ea46fa1d7c6f44495bbe0d6e859e3a, type: 2}
     - rid: 8473214214345065358
@@ -335,7 +335,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 27756ad7e777dad409bcb635f424afc8|Assets/[AVW]WP_Tanktop/Meshnet/PC_Meshnet
+          id: 27756ad7e777dad409bcb635f424afc8|Assets/Clothes Combined Folder/[AVW]WP_Tanktop/Meshnet/PC_Meshnet
             1.mat
           objRef: {fileID: 2100000, guid: 27756ad7e777dad409bcb635f424afc8, type: 2}
 --- !u!114 &4641165606527457223
