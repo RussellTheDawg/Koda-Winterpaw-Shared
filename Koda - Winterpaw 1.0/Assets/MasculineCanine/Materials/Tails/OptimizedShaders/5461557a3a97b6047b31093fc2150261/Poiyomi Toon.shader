@@ -602,10 +602,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _EMISSION 
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_EMISSIONMASK 
+ #define PROP_BUMPMAP 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
- #define PROP_EMISSIONMASK1 
  #define PROP_EMISSIONMAP1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -4367,10 +4366,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _EMISSION 
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_EMISSIONMASK 
+ #define PROP_BUMPMAP 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
- #define PROP_EMISSIONMASK1 
  #define PROP_EMISSIONMAP1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -7781,10 +7779,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _EMISSION 
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_EMISSIONMASK 
+ #define PROP_BUMPMAP 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
- #define PROP_EMISSIONMASK1 
  #define PROP_EMISSIONMAP1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0
@@ -10980,10 +10977,9 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _EMISSION 
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
- #define PROP_EMISSIONMASK 
+ #define PROP_BUMPMAP 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
- #define PROP_EMISSIONMASK1 
  #define PROP_EMISSIONMAP1 
  #define OPTIMIZER_ENABLED 
 			#pragma target 5.0

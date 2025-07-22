@@ -1188,7 +1188,7 @@ PrefabInstance:
     - target: {fileID: 7798982315762313062, guid: a653fe506175a044e8ca9c614c0bf6b3,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1741,6 +1741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Booty Shorts Edit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903609674641532823, guid: 4f733f5ee2d0e2d4589e06d20d3af342,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2779,14 +2784,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176528663}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.107788086, y: -0.00000011879669, z: 0.000000012946709, w: 0.9941739}
-  m_LocalPosition: {x: -0.0000000118348975, y: 0.006633884, z: 0.049557965}
+  m_LocalRotation: {x: 0.059271898, y: -0.00000011928304, z: 0.0000000071898976, w: 0.9982419}
+  m_LocalPosition: {x: 0, y: 0.0335, z: 0.1068}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2135207978}
   m_Father: {fileID: 747969232153647613}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 6.796, y: 0, z: 0}
 --- !u!114 &176528665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2843,7 +2848,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 8d79a04ae9e7fc84d8b4c8f22f9e0250|Assets/Toggle Images/tank-top.png
+          id: 8d79a04ae9e7fc84d8b4c8f22f9e0250|Assets/Extras Combined Folder/Toggle
+            Images/tank-top.png
           objRef: {fileID: 2800000, guid: 8d79a04ae9e7fc84d8b4c8f22f9e0250, type: 3}
 --- !u!1001 &187695943
 PrefabInstance:
@@ -3545,6 +3551,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 712891af202875a47b876a96d24b0328, type: 2}
+    - target: {fileID: 5407079058836744284, guid: 9f4ca936f95c0a24c976b75493ef4b48,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6166638310413897491, guid: 9f4ca936f95c0a24c976b75493ef4b48,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -4304,7 +4315,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 6d1f358690c590d4584c2c20b136677d|Assets/Toggle Images/KodaCollar.png
+          id: 6d1f358690c590d4584c2c20b136677d|Assets/Extras Combined Folder/Toggle
+            Images/KodaCollar.png
           objRef: {fileID: 2800000, guid: 6d1f358690c590d4584c2c20b136677d, type: 3}
 --- !u!1 &233831254
 GameObject:
@@ -8539,7 +8551,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: f512e06e254c6b74b8d8c5944a73e1ca|Assets/Toggle Images/HarnessIcon.png
+          id: f512e06e254c6b74b8d8c5944a73e1ca|Assets/Extras Combined Folder/Toggle
+            Images/HarnessIcon.png
           objRef: {fileID: 2800000, guid: f512e06e254c6b74b8d8c5944a73e1ca, type: 3}
 --- !u!114 &586562541
 MonoBehaviour:
@@ -8573,7 +8586,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: f512e06e254c6b74b8d8c5944a73e1ca|Assets/Toggle Images/HarnessIcon.png
+          id: f512e06e254c6b74b8d8c5944a73e1ca|Assets/Extras Combined Folder/Toggle
+            Images/HarnessIcon.png
           objRef: {fileID: 2800000, guid: f512e06e254c6b74b8d8c5944a73e1ca, type: 3}
 --- !u!1 &590147893
 GameObject:
@@ -8694,6 +8708,22 @@ MonoBehaviour:
         value: 8
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526584
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1708045363}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 8
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6355527516900556824
       type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -8723,6 +8753,7 @@ MonoBehaviour:
           - rid: 6425162522399342657
           - rid: 4467359097865110294
           - rid: 4467359097865110295
+          - rid: 4467359143534526584
         saved: 0
         slider: 1
         sliderInactiveAtZero: 0
@@ -8848,7 +8879,7 @@ PrefabInstance:
     - target: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8971,7 +9002,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: a2c00f5a1d0579b42afc3a425415671d|Assets/Toggle Images/BandanaNoOutline.png
+          id: a2c00f5a1d0579b42afc3a425415671d|Assets/Extras Combined Folder/Toggle
+            Images/BandanaNoOutline.png
           objRef: {fileID: 2800000, guid: a2c00f5a1d0579b42afc3a425415671d, type: 3}
 --- !u!114 &599278083
 MonoBehaviour:
@@ -9063,7 +9095,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: cc96eb4dc06d9cf45b4b5a9506d3756d|Assets/MasculineCanine/Bandana/Materials/Pride
+          id: cc96eb4dc06d9cf45b4b5a9506d3756d|Assets/Clothes Combined Folder/Bandana/Materials/Pride
             Flags/Pride.mat
           objRef: {fileID: 2100000, guid: cc96eb4dc06d9cf45b4b5a9506d3756d, type: 2}
     - rid: 7806802217729524131
@@ -10912,7 +10944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[AVW]SBHarnessFull'
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1252229917267415283, guid: 4f753cd34c8eaa84998ca03d245f778c, type: 3}
+    - {fileID: 3819458949644027976, guid: 4f753cd34c8eaa84998ca03d245f778c, type: 3}
+    - {fileID: 8632261213422387027, guid: 4f753cd34c8eaa84998ca03d245f778c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -18185,6 +18220,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[AVW]ElbowKneepads'
       objectReference: {fileID: 0}
+    - target: {fileID: 1522775427251959307, guid: 4871eed4abf7df944aa9d573595e9a11,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20679,7 +20719,7 @@ MonoBehaviour:
         slider: 0
         sliderInactiveAtZero: 0
         securityEnabled: 0
-        defaultOn: 0
+        defaultOn: 1
         includeInRest: 0
         exclusiveOffState: 0
         enableExclusiveTag: 0
@@ -23445,14 +23485,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312843508}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7660444, y: -0.00038144636, z: 0.00045459013, w: 0.64278746}
-  m_LocalPosition: {x: 0.00002373702, y: -0.079999976, z: -0.019999998}
+  m_LocalRotation: {x: 0.9186638, y: -0.00023442662, z: 0.00054515834, w: 0.3950398}
+  m_LocalPosition: {x: 0.0005, y: -0.0569, z: -0.0636}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2069354250}
   m_Father: {fileID: 3742407836286285802}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 133.463, y: -0.067993164, z: 0}
 --- !u!1 &1318127691
 GameObject:
   m_ObjectHideFlags: 0
@@ -23865,7 +23905,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: a73b39d390dc1f844a1c0b9a734245ff|Assets/Toggle Images/protection-glasses.png
+          id: a73b39d390dc1f844a1c0b9a734245ff|Assets/Extras Combined Folder/Toggle
+            Images/protection-glasses.png
           objRef: {fileID: 2800000, guid: a73b39d390dc1f844a1c0b9a734245ff, type: 3}
 --- !u!114 &1335779247
 MonoBehaviour:
@@ -36368,16 +36409,18 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 82f064512a192d04783aa0bfd612f1ad|Assets/!Dismay Custom/Penetration
-              Contact System/Editor/Resources/FX Controller/PCS - Direct Blendtree.controller
+            id: 82f064512a192d04783aa0bfd612f1ad|Assets/NSFW Combined Folder/!Dismay
+              Custom/Penetration Contact System/Editor/Resources/FX Controller/PCS
+              - Direct Blendtree.controller
             objRef: {fileID: 9100000, guid: 82f064512a192d04783aa0bfd612f1ad, type: 2}
           type: 5
         - controller:
             version: 1
             fileID: 0
             guid: 
-            id: 2d7c1fc9b632d3f44a5612279427a130|Assets/!Dismay Custom/Penetration
-              Contact System/Editor/Resources/FX Controller/PCS - FX Main.controller
+            id: 2d7c1fc9b632d3f44a5612279427a130|Assets/NSFW Combined Folder/!Dismay
+              Custom/Penetration Contact System/Editor/Resources/FX Controller/PCS
+              - FX Main.controller
             objRef: {fileID: 9100000, guid: 2d7c1fc9b632d3f44a5612279427a130, type: 2}
           type: 5
         menus:
@@ -36385,10 +36428,11 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 71582eba3206e4047a44eaa6e3ff8147|Assets/!Dismay Custom/Penetration
-              Contact System/#GENERATED/Koda NSFW/!PCS Install Menu_Koda NSFW.asset
+            id: 71582eba3206e4047a44eaa6e3ff8147|Assets/NSFW Combined Folder/!Dismay
+              Custom/Penetration Contact System/#GENERATED/Koda NSFW/!PCS Install
+              Menu_Koda NSFW.asset
             objRef: {fileID: 11400000, guid: 71582eba3206e4047a44eaa6e3ff8147, type: 2}
-          prefix: 
+          prefix: Body/Lewd
         prms: []
         smoothedPrms: []
         globalParams:
@@ -37044,11 +37088,155 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 0}
-        affectAllMeshes: 1
+        renderer2: {fileID: 150138857}
+        affectAllMeshes: 0
         propertyName: _EmissionCenterOutEnabled
         propertyType: 0
         value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526585
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1708045363}
+        affectAllMeshes: 0
+        propertyName: _AudioLinkAnimToggle
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526586
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1294150680}
+        affectAllMeshes: 0
+        propertyName: _AudioLinkAnimToggle
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526587
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 150138857}
+        affectAllMeshes: 0
+        propertyName: _AudioLinkAnimToggle
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526589
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 635547660225316644}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 2
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526590
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1294150680}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 2
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526591
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 150138857}
+        affectAllMeshes: 0
+        propertyName: _EmissionStrength
+        propertyType: 0
+        value: 2
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526593
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1294150680}
+        affectAllMeshes: 0
+        propertyName: _EmissionCenterOutEnabled
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526594
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 635547660225316644}
+        affectAllMeshes: 0
+        propertyName: _EmissionCenterOutEnabled
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 4467359143534526595
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 1708045363}
+        affectAllMeshes: 0
+        propertyName: _EmissionCenterOutEnabled
+        propertyType: 0
+        value: 0
         valueVector: {x: 0, y: 0, z: 0, w: 0}
         valueColor: {r: 1, g: 1, b: 1, a: 1}
     - rid: 6425162456688492618
@@ -37059,7 +37247,16 @@ MonoBehaviour:
         state:
           actions:
           - rid: 6425162456688492619
+          - rid: 4467359143534526585
+          - rid: 4467359143534526586
+          - rid: 4467359143534526587
+          - rid: 4467359143534526589
           - rid: 7806802080887996458
+          - rid: 4467359143534526590
+          - rid: 4467359143534526591
+          - rid: 4467359143534526594
+          - rid: 4467359143534526593
+          - rid: 4467359143534526595
           - rid: 4467358710317973591
         saved: 0
         slider: 0
@@ -37113,8 +37310,8 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 0}
-        affectAllMeshes: 1
+        renderer2: {fileID: 635547660225316644}
+        affectAllMeshes: 0
         propertyName: _AudioLinkAnimToggle
         propertyType: 0
         value: 1
@@ -37129,8 +37326,8 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         renderer: {fileID: 0}
-        renderer2: {fileID: 0}
-        affectAllMeshes: 1
+        renderer2: {fileID: 1708045363}
+        affectAllMeshes: 0
         propertyName: _EmissionStrength
         propertyType: 0
         value: 2
@@ -37945,6 +38142,12 @@ MonoBehaviour:
         blendShapeValue: 100
         renderer: {fileID: 0}
         allRenderers: 1
+--- !u!1 &1708045363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8413006629867505601, guid: b31d3c67e69b4ae4ab6350c329549b46,
+    type: 3}
+  m_PrefabInstance: {fileID: 88092170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1725822478
 GameObject:
   m_ObjectHideFlags: 0
@@ -39936,7 +40139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1822397504
 Transform:
   m_ObjectHideFlags: 0
@@ -47988,7 +48191,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 34b7c002089bfc44b861e48673f2c16d|Assets/Toggle Images/Ballcap.png
+          id: 34b7c002089bfc44b861e48673f2c16d|Assets/Extras Combined Folder/Toggle
+            Images/Ballcap.png
           objRef: {fileID: 2800000, guid: 34b7c002089bfc44b861e48673f2c16d, type: 3}
 --- !u!1 &2018829683
 GameObject:

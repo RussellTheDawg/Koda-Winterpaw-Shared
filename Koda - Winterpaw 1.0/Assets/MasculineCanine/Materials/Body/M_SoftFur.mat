@@ -90,19 +90,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: f6a6ebf3cb71d7040980fc0e4b8638a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 957e823f64ca1054fbb484a68a91e2f1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cc31bdda24a36f44a834b4b0a8e3ab20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask:
-        m_Texture: {fileID: 2800000, guid: f6a6ebf3cb71d7040980fc0e4b8638a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 957e823f64ca1054fbb484a68a91e2f1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask1:
-        m_Texture: {fileID: 2800000, guid: 520617b51c534a448a75443199e4bea9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionScrollingCurve:
@@ -130,7 +130,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 35f808a9c65408c47a07b442aeb25082, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83e36045c89d9e5448b54ca5c26b67cc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieMetallicMaps:
@@ -2622,7 +2622,7 @@ Material:
     - m_start_CenterOutDissolve: 0
     - m_start_ColorAdjust: 0
     - m_start_CubeMap: 0
-    - m_start_Decal0: 0
+    - m_start_Decal0: 1
     - m_start_Decal0AudioLink: 0
     - m_start_Decal1: 1
     - m_start_Decal1AudioLink: 0
@@ -2684,9 +2684,9 @@ Material:
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
-    - m_start_PoiLightData: 1
+    - m_start_PoiLightData: 0
     - m_start_PoiPostProcessingCategory: 0
-    - m_start_PoiShading: 1
+    - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
@@ -2715,7 +2715,7 @@ Material:
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
-    - m_start_brdf: 1
+    - m_start_brdf: 0
     - m_start_brdfadvanced: 0
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 0
