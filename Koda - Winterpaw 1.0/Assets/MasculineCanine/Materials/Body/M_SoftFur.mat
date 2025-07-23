@@ -41,6 +41,7 @@ Material:
     RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1
     _DecalBlendAlpha1Animated: 1
+    _DecalBlendAlphaAnimated: 1
     _DecalEmissionStrengthAnimated: 1
     _EmissionCenterOutEnabledAnimated: 1
     _EmissionStrength1Animated: 1

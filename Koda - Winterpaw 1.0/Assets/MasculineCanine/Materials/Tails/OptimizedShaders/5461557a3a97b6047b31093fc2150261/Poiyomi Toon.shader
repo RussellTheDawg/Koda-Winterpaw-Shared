@@ -603,6 +603,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_EMISSIONMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define PROP_EMISSIONMAP1 
@@ -3833,7 +3834,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
 				float2 mainUV = poiUV(poiMesh.uv[(0.0 /*_MainTexUV*/)].xy, float4(1,1,0,0));
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
+					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				mainTexture.a = max(mainTexture.a, (0.0 /*_MainIgnoreTexAlpha*/));
@@ -4367,6 +4368,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_EMISSIONMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define PROP_EMISSIONMAP1 
@@ -7256,7 +7258,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
 				float2 mainUV = poiUV(poiMesh.uv[(0.0 /*_MainTexUV*/)].xy, float4(1,1,0,0));
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
+					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				mainTexture.a = max(mainTexture.a, (0.0 /*_MainIgnoreTexAlpha*/));
@@ -7780,6 +7782,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_EMISSIONMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define PROP_EMISSIONMAP1 
@@ -10464,7 +10467,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
 				float2 mainUV = poiUV(poiMesh.uv[(0.0 /*_MainTexUV*/)].xy, float4(1,1,0,0));
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
+					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				mainTexture.a = max(mainTexture.a, (0.0 /*_MainIgnoreTexAlpha*/));
@@ -10978,6 +10981,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
  #define _LIGHTINGMODE_FLAT 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_EMISSIONMASK 
  #define PROP_EMISSIONMAP 
  #define PROP_EMISSIONSCROLLINGCURVE 
  #define PROP_EMISSIONMAP1 
@@ -13301,7 +13305,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/5461557a3a97b6047b31093fc2150261"
 				float2 mainUV = poiUV(poiMesh.uv[(0.0 /*_MainTexUV*/)].xy, float4(1,1,0,0));
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
+					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, mainUV, float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				mainTexture.a = max(mainTexture.a, (0.0 /*_MainIgnoreTexAlpha*/));
