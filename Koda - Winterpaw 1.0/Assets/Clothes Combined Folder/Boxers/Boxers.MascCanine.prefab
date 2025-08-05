@@ -463,6 +463,46 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5903862986220241003
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 2043824067801340980}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1193315f446061f4c88fc0064f46858f|Assets/Final Koda Textures July 2025/Latex/Latex
+            Undies.mat
+          objRef: {fileID: 2100000, guid: 1193315f446061f4c88fc0064f46858f, type: 2}
+    - rid: 5903862986220241004
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 6944412631426500328}
+        mode: 0
+    - rid: 5903862986220241089
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Underwear1^
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
     - rid: 6425162524745794101
       type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -488,6 +528,11 @@ MonoBehaviour:
             - rid: 6425162524745794153
             - rid: 6425162697698181985
             - rid: 6425162697698181986
+        - state:
+            actions:
+            - rid: 5903862986220241003
+            - rid: 5903862986220241004
+            - rid: 5903862986220241089
     - rid: 6425162524745794102
       type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -503,7 +548,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 926f22a9feb20194e871bb0527359f50|Assets/MasculineCanine/Boxers/Materials/Underwear_Cinnabun_color.mat
+          id: 926f22a9feb20194e871bb0527359f50|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Underwear_Cinnabun_color.mat
           objRef: {fileID: 2100000, guid: 926f22a9feb20194e871bb0527359f50, type: 2}
     - rid: 6425162524745794103
       type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -520,7 +566,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 59af4598684f2c247a7464ff4c36a533|Assets/MasculineCanine/Boxers/Materials/Underwear_Gray_color.mat
+          id: 59af4598684f2c247a7464ff4c36a533|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Underwear_Gray_color.mat
           objRef: {fileID: 2100000, guid: 59af4598684f2c247a7464ff4c36a533, type: 2}
     - rid: 6425162524745794153
       type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -537,7 +584,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 4d3ab51850c41224b951fa3eea35a498|Assets/MasculineCanine/Boxers/Materials/Underwear_Black_color.mat
+          id: 4d3ab51850c41224b951fa3eea35a498|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Underwear_Black_color.mat
           objRef: {fileID: 2100000, guid: 4d3ab51850c41224b951fa3eea35a498, type: 2}
     - rid: 6425162697698181881
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -688,7 +736,8 @@ MonoBehaviour:
           version: 1
           fileID: 2800000
           guid: 6972e4abd4d0d9446b56c80ac9ff59c9
-          id: 6972e4abd4d0d9446b56c80ac9ff59c9|Assets/MasculineCanine/Boxers/BoxerAssets/Materials/Textures/BoxersIcon.png
+          id: 6972e4abd4d0d9446b56c80ac9ff59c9|Assets/Clothes Combined Folder/Boxers/BoxerAssets/Default
+            Winterpaw Boxers/Textures/BoxersIcon.png
           objRef: {fileID: 2800000, guid: 6972e4abd4d0d9446b56c80ac9ff59c9, type: 3}
 --- !u!1 &7486309245895671109
 GameObject:

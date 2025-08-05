@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_OwO
-  m_Shader: {fileID: 4800000, guid: 2fec863d2c311b3428465ab146b4ec6d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 22c4383f0c8b980458a80e3399cd2617, type: 3}
   m_Parent: {fileID: 2100000, guid: 926f22a9feb20194e871bb0527359f50, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords: []
@@ -51,9 +51,14 @@ Material:
     - _LightingMonochromatic: 0.4
     - _MochieLitFallback: 0
     - _ShadowStrength: 0.7
+    - m_OutlineCategory: 0
+    - m_modifierCategory: 0
+    - m_renderingCategory: 0
+    - m_specialFXCategory: 0
     - m_start_DetailOptions: 1
     - m_start_PoiLightData: 0
     - m_start_PoiShading: 1
+    - m_thirdpartyCategory: 0
     m_Colors:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
