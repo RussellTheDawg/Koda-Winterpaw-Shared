@@ -309,7 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -417,7 +417,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
+            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothes Combined Folder/WANKU
+              Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
             objRef: {fileID: 9100000, guid: d814ca7ab2f677042b3eb42355c0e785, type: 2}
           type: 5
         menus:
@@ -425,15 +426,17 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 4cc462d877cfa0c458bfc84590d966fe|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/HarnessMenu.asset
+            id: 4cc462d877cfa0c458bfc84590d966fe|Assets/Clothes Combined Folder/WANKU
+              Clothing Edits/[AVW]SB Harness/Systems/Animations/HarnessMenu.asset
             objRef: {fileID: 11400000, guid: 4cc462d877cfa0c458bfc84590d966fe, type: 2}
-          prefix: Clothing/Harness
+          prefix: Clothing/Harnesses/SB
         prms:
         - parameters:
             version: 1
             fileID: 0
             guid: 
-            id: f79ac00fe6e0bc74b88689ff1979aebf|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/HarnessParameters.asset
+            id: f79ac00fe6e0bc74b88689ff1979aebf|Assets/Clothes Combined Folder/WANKU
+              Clothing Edits/[AVW]SB Harness/Systems/Animations/HarnessParameters.asset
             objRef: {fileID: 11400000, guid: f79ac00fe6e0bc74b88689ff1979aebf, type: 2}
         smoothedPrms: []
         globalParams:
