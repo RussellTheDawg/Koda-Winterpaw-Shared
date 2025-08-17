@@ -55,7 +55,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 5302184496438705756}
   ignoreTransforms:
   - {fileID: 0}
   ignoreOtherPhysBones: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 998670624715669475}
   ignoreTransforms: []
   ignoreOtherPhysBones: 1
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -439,7 +439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2426934556330790178}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -477,7 +477,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 4440556286895826969}
+        propBone: {fileID: 1726850226660607018}
         linkTo:
         - useBone: 1
           bone: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -536,7 +536,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
+            id: d814ca7ab2f677042b3eb42355c0e785|Assets/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
             objRef: {fileID: 9100000, guid: d814ca7ab2f677042b3eb42355c0e785, type: 2}
           type: 5
         menus:
@@ -544,7 +544,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b0edda276ef123b49a77c148d48046f6|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLL/HarnessMenu.asset
+            id: b0edda276ef123b49a77c148d48046f6|Assets/[AVW]SB Harness/Systems/Animations/NoLL/HarnessMenu.asset
             objRef: {fileID: 11400000, guid: b0edda276ef123b49a77c148d48046f6, type: 2}
           prefix: Clothing/Harness
         prms:
@@ -552,7 +552,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: aee7a6b80c7ecce478c0e68001f3456d|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLL/HarnessParameters.asset
+            id: aee7a6b80c7ecce478c0e68001f3456d|Assets/[AVW]SB Harness/Systems/Animations/NoLL/HarnessParameters.asset
             objRef: {fileID: 11400000, guid: aee7a6b80c7ecce478c0e68001f3456d, type: 2}
         smoothedPrms: []
         globalParams:
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1326,6 +1326,11 @@ PrefabInstance:
       propertyPath: Sources.source0.SourceTransform
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 9177501107082578231, guid: accc36067b7932b4abdb5fa8b026cefc,
+        type: 3}
+      propertyPath: Sources.source1.SourceTransform
+      value: 
+      objectReference: {fileID: 1170045123717500802}
     m_RemovedComponents:
     - {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc, type: 3}
     m_RemovedGameObjects: []
@@ -1368,7 +1373,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 5302184496438705756}
   ignoreTransforms: []
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -1593,7 +1598,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 1
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 8045950049888446797}
   ignoreTransforms: []
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -1880,15 +1885,39 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a995729509227949ba6a7050d2b2db2, type: 3}
+--- !u!4 &998670624715669475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4399426715442014090, guid: 8a995729509227949ba6a7050d2b2db2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3519029766269409385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1170045123717500802 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6851436031739193365, guid: 8a995729509227949ba6a7050d2b2db2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3519029766269409385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1726850226660607018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2819565405787069507, guid: 8a995729509227949ba6a7050d2b2db2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3519029766269409385}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3989243213012467586 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8a995729509227949ba6a7050d2b2db2,
     type: 3}
   m_PrefabInstance: {fileID: 3519029766269409385}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4440556286895826969 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8253377896919453584, guid: 8a995729509227949ba6a7050d2b2db2,
+--- !u!4 &5302184496438705756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -485475784609470923, guid: 8a995729509227949ba6a7050d2b2db2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3519029766269409385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8045950049888446797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881199090745520420, guid: 8a995729509227949ba6a7050d2b2db2,
     type: 3}
   m_PrefabInstance: {fileID: 3519029766269409385}
   m_PrefabAsset: {fileID: 0}

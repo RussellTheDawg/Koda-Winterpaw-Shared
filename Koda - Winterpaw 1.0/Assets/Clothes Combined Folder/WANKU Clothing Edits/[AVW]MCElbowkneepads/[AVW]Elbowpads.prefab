@@ -66,6 +66,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 646759119790957022, guid: 06e0797e3b3577f4b9a5d4ed058afce3,
         type: 3}
+      propertyPath: m_ProbeAnchor
+      value: 
+      objectReference: {fileID: 3432813363032407877}
+    - target: {fileID: 646759119790957022, guid: 06e0797e3b3577f4b9a5d4ed058afce3,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7315fba1b5e9b0546af9c0001f709492, type: 2}
@@ -117,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -130,7 +135,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 5693074864297309198}
+        propBone: {fileID: 1672564712569367839}
         linkTo:
         - useBone: 1
           bone: 0
@@ -171,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -206,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -224,7 +229,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 36cac0ae26cb24a47a353221c0a2ee93|Assets/Clothing Edits/[AVW]MCElbowkneepads/Animations/PadsController.controller
+            id: 36cac0ae26cb24a47a353221c0a2ee93|Assets/[AVW]MCElbowkneepads/Animations/PadsController.controller
             objRef: {fileID: 9100000, guid: 36cac0ae26cb24a47a353221c0a2ee93, type: 2}
           type: 5
         menus:
@@ -232,7 +237,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 531ffcd1373a4ea45a991dad86aa4d6f|Assets/Clothing Edits/[AVW]MCElbowkneepads/Animations/PadsMenu.asset
+            id: 531ffcd1373a4ea45a991dad86aa4d6f|Assets/[AVW]MCElbowkneepads/Animations/PadsMenu.asset
             objRef: {fileID: 11400000, guid: 531ffcd1373a4ea45a991dad86aa4d6f, type: 2}
           prefix: Clothing/Pads
         prms:
@@ -240,7 +245,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: e27f1f97ec04e594caaf07aace123b0b|Assets/Clothing Edits/[AVW]MCElbowkneepads/Animations/PadsParameters.asset
+            id: e27f1f97ec04e594caaf07aace123b0b|Assets/[AVW]MCElbowkneepads/Animations/PadsParameters.asset
             objRef: {fileID: 11400000, guid: e27f1f97ec04e594caaf07aace123b0b, type: 2}
         smoothedPrms: []
         globalParams: []
@@ -281,9 +286,15 @@ SkinnedMeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 2039138364455463907}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5693074864297309198 stripped
+--- !u!1 &1672564712569367839 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6002635181324263405, guid: 06e0797e3b3577f4b9a5d4ed058afce3,
+  m_CorrespondingSourceObject: {fileID: 827075974287967996, guid: 06e0797e3b3577f4b9a5d4ed058afce3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2039138364455463907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3432813363032407877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3742407835892290726, guid: 06e0797e3b3577f4b9a5d4ed058afce3,
     type: 3}
   m_PrefabInstance: {fileID: 2039138364455463907}
   m_PrefabAsset: {fileID: 0}

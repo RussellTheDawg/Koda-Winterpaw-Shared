@@ -8676,12 +8676,6 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
---- !u!4 &585330329 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1792296963161637030}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &586562531 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7830728016846001685, guid: 553a51885a6e7b04e8314ea11bae5292,
@@ -39520,113 +39514,113 @@ MonoBehaviour:
   collider_head:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.11047847
+    transform: {fileID: 747969232153647613}
+    radius: 0.11047846
     height: 0
-    position: {x: 0.0000000030286218, y: 0.09746667, z: -0.013046995}
+    position: {x: 0.0000000031111829, y: 0.0974671, z: -0.01304706}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.16739161
+    transform: {fileID: 8101057197628006097}
+    radius: 0.1673916
     height: 0.5375835
-    position: {x: -0.0000013959599, y: -0.016407907, z: -0.014074312}
-    rotation: {x: 0.02618989, y: 0, z: -0.0000025975585, w: 0.999657}
+    position: {x: -0.0000013959153, y: -0.016407542, z: -0.014074346}
+    rotation: {x: 0.026189728, y: 0, z: -0.000002597551, w: 0.99965703}
   collider_footR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.08127482
+    transform: {fileID: 7328550234423210999}
+    radius: 0.08127481
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.08127483
+    transform: {fileID: 5372465727947436976}
+    radius: 0.08127482
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.02408574
-    height: 0.09634296
-    position: {x: -0.005029415, y: 0.08173738, z: -0.000011462723}
-    rotation: {x: -0.0081304815, y: 0, z: 0.72845095, w: 0.6850497}
+    transform: {fileID: 5194720376926793597}
+    radius: 0.024085768
+    height: 0.09634307
+    position: {x: -0.0050293677, y: 0.081737235, z: -0.00001140968}
+    rotation: {x: -0.0081305215, y: 0, z: 0.72845066, w: 0.68505}
   collider_handL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.024085673
-    height: 0.09634269
-    position: {x: 0.0050294404, y: 0.08173715, z: -0.0000113020205}
-    rotation: {x: -0.008130222, y: 0, z: -0.72845083, w: 0.68504983}
+    transform: {fileID: 1674273702696771375}
+    radius: 0.024085727
+    height: 0.09634291
+    position: {x: 0.0050293924, y: 0.08173686, z: -0.000011573546}
+    rotation: {x: -0.008134096, y: 0, z: -0.7284508, w: 0.68504995}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.010593555
-    height: 0.052967776
+    transform: {fileID: 7246902145456694821}
+    radius: 0.0105936015
+    height: 0.05296801
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.012779349
-    height: 0.063896745
+    transform: {fileID: 8938498459671550388}
+    radius: 0.012779278
+    height: 0.06389639
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.013089737
-    height: 0.06544869
+    transform: {fileID: 4592633679159208770}
+    radius: 0.0130899
+    height: 0.0654495
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.010853833
-    height: 0.05426916
+    transform: {fileID: 3778315463763237732}
+    radius: 0.01085381
+    height: 0.05426905
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.01059343
-    height: 0.052967153
+    transform: {fileID: 3505615243021980054}
+    radius: 0.010593438
+    height: 0.052967187
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.012779293
-    height: 0.06389646
+    transform: {fileID: 2646110908901055419}
+    radius: 0.012779379
+    height: 0.063896894
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.013089813
-    height: 0.06544907
+    transform: {fileID: 8079365617022269774}
+    radius: 0.013089896
+    height: 0.06544948
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0.010853788
-    height: 0.054268938
+    transform: {fileID: 4737684429829925679}
+    radius: 0.0108539015
+    height: 0.054269508
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &1755147403
@@ -61757,16 +61751,16 @@ MonoBehaviour:
     transform: {fileID: 8530726258363650770}
     radius: 0.11047846
     height: 0
-    position: {x: 0.0000000035045384, y: 0.0974671, z: -0.013047064}
+    position: {x: 0.0000000031111829, y: 0.0974671, z: -0.01304706}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 0
     transform: {fileID: 895887304660440574}
     radius: 0.1673916
-    height: 0.5375836
-    position: {x: -0.0000013955352, y: -0.016407657, z: -0.014074392}
-    rotation: {x: 0.026189685, y: 0, z: -0.0000025975478, w: 0.99965703}
+    height: 0.5375835
+    position: {x: -0.0000013959153, y: -0.016407542, z: -0.014074346}
+    rotation: {x: 0.026189728, y: 0, z: -0.000002597551, w: 0.99965703}
   collider_footR:
     isMirrored: 1
     state: 0
@@ -61787,18 +61781,18 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 3752961873651704914}
-    radius: 0.024085794
-    height: 0.096343175
-    position: {x: -0.0050293556, y: 0.08173728, z: -0.000011362974}
-    rotation: {x: -0.008130565, y: 0, z: 0.7284507, w: 0.68505}
+    radius: 0.024085768
+    height: 0.09634307
+    position: {x: -0.0050293677, y: 0.081737235, z: -0.00001140968}
+    rotation: {x: -0.0081305215, y: 0, z: 0.72845066, w: 0.68505}
   collider_handL:
     isMirrored: 1
     state: 0
     transform: {fileID: 7727718840207447040}
     radius: 0.024085727
     height: 0.09634291
-    position: {x: 0.005029399, y: 0.08173686, z: -0.000011573546}
-    rotation: {x: -0.008134094, y: 0, z: -0.7284508, w: 0.68504995}
+    position: {x: 0.0050293924, y: 0.08173686, z: -0.000011573546}
+    rotation: {x: -0.008134096, y: 0, z: -0.7284508, w: 0.68504995}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
@@ -61827,16 +61821,16 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 5218877833137705035}
-    radius: 0.010853811
-    height: 0.054269053
+    radius: 0.01085381
+    height: 0.05426905
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
     transform: {fileID: 5522567790338857657}
-    radius: 0.010593437
-    height: 0.052967183
+    radius: 0.010593438
+    height: 0.052967187
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
@@ -61860,7 +61854,7 @@ MonoBehaviour:
     state: 0
     transform: {fileID: 4448934913185751040}
     radius: 0.0108539015
-    height: 0.054269504
+    height: 0.054269508
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!4 &1223884876751704354
@@ -64870,94 +64864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4142562397450105584}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1792296963161637030
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2225232502767052335}
-    m_Modifications:
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2728448342756374627, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3946562089263428192, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: cachedExecutionGroupIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3946562089263428192, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: latestValidExecutionGroupIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3969986300718363375, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: m_Name
-      value: VRCFury - Face Tracking - UE Blendshapes
-      objectReference: {fileID: 0}
-    - target: {fileID: 4923609399596397873, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: cachedExecutionGroupIndex
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4923609399596397873, guid: 40f7093df8038624c89c1bf989071a1d,
-        type: 3}
-      propertyPath: latestValidExecutionGroupIndex
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 40f7093df8038624c89c1bf989071a1d, type: 3}
 --- !u!1 &1794015159030909229
 GameObject:
   m_ObjectHideFlags: 0
@@ -66270,7 +66176,6 @@ Transform:
   - {fileID: 5447888561729507230}
   - {fileID: 6184274834937107814}
   - {fileID: 1496426857098235194}
-  - {fileID: 585330329}
   m_Father: {fileID: 8901594621526003592}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2231630733849084729
@@ -67791,7 +67696,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: a832275dd1d4c724683a38fb21c01f08|Assets/KodaGrabby/KodaGrabby/The_Originals.png
+          id: a832275dd1d4c724683a38fb21c01f08|Assets/Clothes Combined Folder/KodaGrabby/KodaGrabby/The_Originals.png
           objRef: {fileID: 2800000, guid: a832275dd1d4c724683a38fb21c01f08, type: 3}
 --- !u!114 &2907039684924415109
 MonoBehaviour:

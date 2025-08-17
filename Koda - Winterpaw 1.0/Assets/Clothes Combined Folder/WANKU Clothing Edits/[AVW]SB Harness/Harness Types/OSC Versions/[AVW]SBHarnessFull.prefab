@@ -497,7 +497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8263366478798606648}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.05627738, y: 1.6554447, z: -0.060375094}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -535,7 +535,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 5484398975269108173}
+        propBone: {fileID: 0}
         linkTo:
         - useBone: 1
           bone: 0
@@ -630,7 +630,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
+            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/SB Harness
+              Edit/Systems/Animations/SBHarnessFull.controller
             objRef: {fileID: 9100000, guid: d814ca7ab2f677042b3eb42355c0e785, type: 2}
           type: 5
         menus:
@@ -638,7 +639,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 4cc462d877cfa0c458bfc84590d966fe|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/HarnessMenu.asset
+            id: 4cc462d877cfa0c458bfc84590d966fe|Assets/Clothing Edits/SB Harness
+              Edit/Systems/Animations/HarnessMenu.asset
             objRef: {fileID: 11400000, guid: 4cc462d877cfa0c458bfc84590d966fe, type: 2}
           prefix: Clothing/Harness
         prms:
@@ -646,7 +648,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: f79ac00fe6e0bc74b88689ff1979aebf|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/HarnessParameters.asset
+            id: f79ac00fe6e0bc74b88689ff1979aebf|Assets/Clothing Edits/SB Harness
+              Edit/Systems/Animations/HarnessParameters.asset
             objRef: {fileID: 11400000, guid: f79ac00fe6e0bc74b88689ff1979aebf, type: 2}
         smoothedPrms: []
         globalParams:
@@ -2121,12 +2124,6 @@ SkinnedMeshRenderer:
 --- !u!4 &4678285110483802330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a872f319dc1e2d145961ae5b7616eced,
-    type: 3}
-  m_PrefabInstance: {fileID: 5144838072979930929}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5484398975269108173 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 827075974287967996, guid: a872f319dc1e2d145961ae5b7616eced,
     type: 3}
   m_PrefabInstance: {fileID: 5144838072979930929}
   m_PrefabAsset: {fileID: 0}

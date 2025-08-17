@@ -476,9 +476,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 9add7f140627e4b44907d9f0a8e4e764|Assets/Bino/Masculine Canine Revamped/ClothesFit/Jock
-            textures/Jock Mat Orange.mat
-          objRef: {fileID: 2100000, guid: 9add7f140627e4b44907d9f0a8e4e764, type: 2}
+          id: 476569fdc95a5864aa67b3cc569e04d8|Assets/Materials/AVW_Monster_Jock_Jock_BaseMap
+            1.mat
+          objRef: {fileID: 2100000, guid: 476569fdc95a5864aa67b3cc569e04d8, type: 2}
 --- !u!114 &5236787172521363837
 MonoBehaviour:
   m_ObjectHideFlags: 0

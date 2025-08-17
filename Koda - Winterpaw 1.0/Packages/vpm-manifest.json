@@ -23,6 +23,9 @@
     },
     "wholesomevr.sps-configurator": {
       "version": "2.0.11"
+    },
+    "adjerry91.vrcft.templates": {
+      "version": "6.8.1"
     }
   },
   "locked": {
@@ -79,6 +82,10 @@
       "dependencies": {
         "com.vrchat.avatars": "3.*"
       }
+    },
+    "adjerry91.vrcft.templates": {
+      "version": "6.8.1",
+      "dependencies": {}
     }
   }
 }

@@ -55,9 +55,9 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 4582285597467414258}
   ignoreTransforms:
-  - {fileID: 0}
+  - {fileID: 5840337704636917115}
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
   multiChildType: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 5003592157714156318}
   ignoreTransforms: []
   ignoreOtherPhysBones: 1
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -439,7 +439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6944480718421768752}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -477,7 +477,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 6908418698618219118}
+        propBone: {fileID: 7058734829697266820}
         linkTo:
         - useBone: 1
           bone: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -536,7 +536,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
+            id: d814ca7ab2f677042b3eb42355c0e785|Assets/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
             objRef: {fileID: 9100000, guid: d814ca7ab2f677042b3eb42355c0e785, type: 2}
           type: 5
         menus:
@@ -544,7 +544,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 60a01e12fe7272c489064ddc60c82c82|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLower/HarnessMenu.asset
+            id: 60a01e12fe7272c489064ddc60c82c82|Assets/[AVW]SB Harness/Systems/Animations/NoLower/HarnessMenu.asset
             objRef: {fileID: 11400000, guid: 60a01e12fe7272c489064ddc60c82c82, type: 2}
           prefix: Clothing/Harness
         prms:
@@ -552,7 +552,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 6315f2c44a81bf8419ffe05914b180b2|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLower/HarnessParameters.asset
+            id: 6315f2c44a81bf8419ffe05914b180b2|Assets/[AVW]SB Harness/Systems/Animations/NoLower/HarnessParameters.asset
             objRef: {fileID: 11400000, guid: 6315f2c44a81bf8419ffe05914b180b2, type: 2}
         smoothedPrms: []
         globalParams:
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -763,7 +763,7 @@ PrefabInstance:
         type: 3}
       propertyPath: rootTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4582285597467414258}
     - target: {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc,
         type: 3}
       propertyPath: stretchMotion
@@ -823,7 +823,7 @@ PrefabInstance:
         type: 3}
       propertyPath: colliders.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4628519184338912374}
     - target: {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc,
         type: 3}
       propertyPath: collisionFilter.allowSelf
@@ -1343,12 +1343,12 @@ PrefabInstance:
         type: 3}
       propertyPath: Sources.source0.SourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4532012090078195404}
     - target: {fileID: 9177501107082578231, guid: accc36067b7932b4abdb5fa8b026cefc,
         type: 3}
       propertyPath: Sources.source1.SourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8833023275874584875}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1386,7 +1386,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 1
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 1849392013775198691}
   ignoreTransforms: []
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -1641,7 +1641,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ProbeAnchor
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 520778168885278742}
     - target: {fileID: -4312531558856717710, guid: 278f3c733b809df488880b4d4bab9d32,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1740,11 +1740,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -6224805902010339111, guid: 278f3c733b809df488880b4d4bab9d32,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4628519184338912374}
   m_SourcePrefab: {fileID: 100100000, guid: 278f3c733b809df488880b4d4bab9d32, type: 3}
 --- !u!137 &212369867084161717 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -4312531558856717710, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &520778168885278742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4750909332236538065, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1849392013775198691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881199090745520420, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4532012090078195404 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8660495589613602315, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4582285597467414258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -485475784609470923, guid: 278f3c733b809df488880b4d4bab9d32,
     type: 3}
   m_PrefabInstance: {fileID: 5103900134788524231}
   m_PrefabAsset: {fileID: 0}
@@ -1754,9 +1782,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5103900134788524231}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6908418698618219118 stripped
+--- !u!4 &5003592157714156318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8960783718489201703, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5191029209297002338 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8151920282942015579, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5840337704636917115 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7504758313442652740, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7058734829697266820 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: -7418818275595959639, guid: 278f3c733b809df488880b4d4bab9d32,
+  m_CorrespondingSourceObject: {fileID: 2819565405787069507, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8019149667730741278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6224805902010339111, guid: 278f3c733b809df488880b4d4bab9d32,
+    type: 3}
+  m_PrefabInstance: {fileID: 5103900134788524231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4628519184338912374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019149667730741278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 5191029209297002338}
+  shapeType: 1
+  insideBounds: 0
+  radius: 0.13
+  height: 0.3
+  position: {x: 0, y: 0.13, z: 0.01}
+  rotation: {x: 0.07428254, y: 0, z: 0, w: 0.99723727}
+  bonesAsSpheres: 0
+--- !u!4 &8833023275874584875 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4881477587863313940, guid: 278f3c733b809df488880b4d4bab9d32,
     type: 3}
   m_PrefabInstance: {fileID: 5103900134788524231}
   m_PrefabAsset: {fileID: 0}

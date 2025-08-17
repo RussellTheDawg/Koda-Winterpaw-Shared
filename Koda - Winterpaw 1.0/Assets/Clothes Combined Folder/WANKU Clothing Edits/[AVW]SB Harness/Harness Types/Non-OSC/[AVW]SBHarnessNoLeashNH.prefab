@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4628870299542441577}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 6947957234982421634}
+        propBone: {fileID: 0}
         linkTo:
         - useBone: 1
           bone: 0
@@ -949,41 +949,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
         type: 3}
-      propertyPath: m_DirtyAABB
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
-      propertyPath: m_AABB.m_Center.x
-      value: -0.0000000121071935
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
-      propertyPath: m_AABB.m_Center.y
-      value: 0.00016490615
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
-      propertyPath: m_AABB.m_Center.z
-      value: 0.01375139
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
-      propertyPath: m_AABB.m_Extent.x
-      value: 0.002242248
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
-      propertyPath: m_AABB.m_Extent.y
-      value: 0.0021579042
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
-      propertyPath: m_AABB.m_Extent.z
-      value: 0.001823091
-      objectReference: {fileID: 0}
-    - target: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cdbd59ea0625de0488e57f4e4a26779e, type: 2}
@@ -1016,12 +981,6 @@ SkinnedMeshRenderer:
 --- !u!137 &4516942752598313173 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -4312531558856717710, guid: 6f1f7ebf17447a24faf02decaa820ebf,
-    type: 3}
-  m_PrefabInstance: {fileID: 8829774246756139687}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6947957234982421634 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -7285220361112566235, guid: 6f1f7ebf17447a24faf02decaa820ebf,
     type: 3}
   m_PrefabInstance: {fileID: 8829774246756139687}
   m_PrefabAsset: {fileID: 0}

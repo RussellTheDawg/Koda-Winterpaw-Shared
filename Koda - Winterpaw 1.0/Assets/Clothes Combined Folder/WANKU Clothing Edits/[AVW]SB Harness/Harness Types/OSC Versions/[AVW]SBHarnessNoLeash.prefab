@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5011227285269492047}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -65,7 +65,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 550717411139689263}
+        propBone: {fileID: 7824258337888935860}
         linkTo:
         - useBone: 1
           bone: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -124,7 +124,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
+            id: d814ca7ab2f677042b3eb42355c0e785|Assets/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
             objRef: {fileID: 9100000, guid: d814ca7ab2f677042b3eb42355c0e785, type: 2}
           type: 5
         menus:
@@ -132,7 +132,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 97adf8bb24d2b584799dbe70e29b2bcb|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLeash/HarnessMenuNoLeash.asset
+            id: 97adf8bb24d2b584799dbe70e29b2bcb|Assets/[AVW]SB Harness/Systems/Animations/NoLeash/HarnessMenuNoLeash.asset
             objRef: {fileID: 11400000, guid: 97adf8bb24d2b584799dbe70e29b2bcb, type: 2}
           prefix: Clothing/Harness
         prms:
@@ -140,7 +140,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 74c8e570e0c6e71448fdd1156e094524|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLeash/HarnessParametersNoLeash.asset
+            id: 74c8e570e0c6e71448fdd1156e094524|Assets/[AVW]SB Harness/Systems/Animations/NoLeash/HarnessParametersNoLeash.asset
             objRef: {fileID: 11400000, guid: 74c8e570e0c6e71448fdd1156e094524, type: 2}
         smoothedPrms: []
         globalParams:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1240.0
+  vrcfuryVersion: 1.1234.0
   somethingIsBroken: 0
   config:
     features: []
@@ -270,7 +270,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 8555050409962628221}
   ignoreTransforms: []
   ignoreOtherPhysBones: 1
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -423,7 +423,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 0
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 3672540447481619906}
   ignoreTransforms: []
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -1333,7 +1333,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Sources.source1.SourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7736776749609292828}
     m_RemovedComponents:
     - {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc, type: 3}
     m_RemovedGameObjects: []
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   foldout_gizmos: 0
   version: 1
   integrationType: 1
-  rootTransform: {fileID: 0}
+  rootTransform: {fileID: 1498199293243798227}
   ignoreTransforms: []
   ignoreOtherPhysBones: 0
   endpointPosition: {x: 0, y: 0, z: 0}
@@ -1607,7 +1607,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ProbeAnchor
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 746151205358867238}
     - target: {fileID: -4312531558856717710, guid: ac11b62a25ae4974189ea65a7a22877d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1627,7 +1627,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ProbeAnchor
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 746151205358867238}
     - target: {fileID: 5928239594324480041, guid: ac11b62a25ae4974189ea65a7a22877d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1638,9 +1638,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac11b62a25ae4974189ea65a7a22877d, type: 3}
---- !u!1 &550717411139689263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -3742270435028133672, guid: ac11b62a25ae4974189ea65a7a22877d,
+--- !u!4 &746151205358867238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4750909332236538065, guid: ac11b62a25ae4974189ea65a7a22877d,
     type: 3}
   m_PrefabInstance: {fileID: 5455057945725830135}
   m_PrefabAsset: {fileID: 0}
@@ -1650,15 +1650,45 @@ SkinnedMeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 5455057945725830135}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1498199293243798227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881199090745520420, guid: ac11b62a25ae4974189ea65a7a22877d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5455057945725830135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!137 &1869298190351913950 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 5928239594324480041, guid: ac11b62a25ae4974189ea65a7a22877d,
     type: 3}
   m_PrefabInstance: {fileID: 5455057945725830135}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &3672540447481619906 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -485475784609470923, guid: ac11b62a25ae4974189ea65a7a22877d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5455057945725830135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5494104786843493404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac11b62a25ae4974189ea65a7a22877d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5455057945725830135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7736776749609292828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6851436031739193365, guid: ac11b62a25ae4974189ea65a7a22877d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5455057945725830135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7824258337888935860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2819565405787069507, guid: ac11b62a25ae4974189ea65a7a22877d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5455057945725830135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8555050409962628221 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4399426715442014090, guid: ac11b62a25ae4974189ea65a7a22877d,
     type: 3}
   m_PrefabInstance: {fileID: 5455057945725830135}
   m_PrefabAsset: {fileID: 0}

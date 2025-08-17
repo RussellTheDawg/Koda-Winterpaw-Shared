@@ -8,20 +8,38 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SBHarnessUpper
-  m_Shader: {fileID: 4800000, guid: 776140d2179a00e43be17bfaee00115a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6bce2d1ddc92a9f4a89764effca57de9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - BSSBLOOMFOGTYPE_HEIGHT
+  - MOCHIE_PBR
+  - POI_AUDIOLINK
+  - POI_BACKFACE
+  - POI_EMISSION_1
+  - POI_GLOBALMASK_TEXTURES
+  - POI_UDIMDISCARD
+  - VIGNETTE_MASKED
+  - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
+  - _LIGHTINGMODE_REALISTIC
+  - _RIM2STYLE_POIYOMI
+  - _RIMSTYLE_POIYOMI
+  - _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
   stringTagMap:
-    AllLockedGUIDS: 515e70e053b85254b8c6bbcfca45aa52,cdbd59ea0625de0488e57f4e4a26779e
+    AllLockedGUIDS: cdbd59ea0625de0488e57f4e4a26779e
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT MOCHIE_PBR POI_AUDIOLINK POI_BACKFACE
+      POI_EMISSION_1 POI_GLOBALMASK_TEXTURES POI_UDIMDISCARD VIGNETTE_MASKED _EMISSION
+      _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
+      _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi Toon
-    OriginalShaderGUID: 104003ab15a9f7a47b6ef0597225e771
-    RenderType: TransparentCutout
+    OriginalShaderGUID: 23f6705aff8bf964c87bfb3dd66ab345
+    RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1
     _EmissionBlinkingEnabled1Animated: 1
     _EmissionBlinkingEnabledAnimated: 1
@@ -93,10 +111,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlobalMaskTexture3:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LightDataSDFMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -461,6 +475,7 @@ Material:
     - _ClearCoatStrength: 1
     - _ClearCoatTPSDepthMaskEnabled: 0
     - _ClearCoatTPSMaskStrength: 1
+    - _ClearcoatFresnel: 1
     - _ClearcoatFresnelStrength: 0.5
     - _ClothLerp: 0
     - _ClothMetallicSmoothnessMapInvert: 0
@@ -1015,6 +1030,7 @@ Material:
     - _GITDEWorldOrMesh2: 0
     - _GITDEWorldOrMesh3: 0
     - _GSAAStrength: 0
+    - _GlitteHueShiftColorSpace: 0
     - _GlitterALAlphaAddBand: 0
     - _GlitterALChronoRotationSpeed: 0
     - _GlitterALChronoRotationSpeedBand: 0
@@ -1537,6 +1553,7 @@ Material:
     - _Matcap2Rotation: 0
     - _Matcap2Screen: 0
     - _Matcap2Smoothness: 1
+    - _Matcap2SmoothnessEnabled: 0
     - _Matcap2TPSDepthEnabled: 0
     - _Matcap2TPSMaskStrength: 1
     - _Matcap2UVMode: 1
@@ -1588,6 +1605,7 @@ Material:
     - _Matcap3Rotation: 0
     - _Matcap3Screen: 0
     - _Matcap3Smoothness: 1
+    - _Matcap3SmoothnessEnabled: 0
     - _Matcap3TPSDepthEnabled: 0
     - _Matcap3TPSMaskStrength: 1
     - _Matcap3UVMode: 1
@@ -1629,6 +1647,7 @@ Material:
     - _Matcap4Rotation: 0
     - _Matcap4Screen: 0
     - _Matcap4Smoothness: 1
+    - _Matcap4SmoothnessEnabled: 0
     - _Matcap4TPSDepthEnabled: 0
     - _Matcap4TPSMaskStrength: 1
     - _Matcap4UVMode: 1
@@ -1667,6 +1686,7 @@ Material:
     - _MatcapRotation: 0
     - _MatcapScreen: 0
     - _MatcapSmoothness: 1
+    - _MatcapSmoothnessEnabled: 0
     - _MatcapTPSDepthEnabled: 0
     - _MatcapTPSMaskStrength: 1
     - _MatcapUVMode: 1
@@ -1927,6 +1947,8 @@ Material:
     - _RedColorThemeIndex: 0
     - _RedTextureStochastic: 0
     - _RedTextureUV: 0
+    - _RefSpecFresnel: 1
+    - _RefSpecFresnelBack: 1
     - _RefSpecFresnelStrength: 0.5
     - _Reflectance: 0.04
     - _ReflectionApplyTransparency: 1
@@ -2785,6 +2807,9 @@ Material:
     - s_end_EmissionCenterOut1: 0
     - s_end_EmissionCenterOut2: 0
     - s_end_EmissionCenterOut3: 0
+    - s_end_EmissionCenterOutEnabled1: 0
+    - s_end_EmissionCenterOutEnabled2: 0
+    - s_end_EmissionCenterOutEnabled3: 0
     - s_end_EmissionHueShift0: 0
     - s_end_EmissionHueShift1: 0
     - s_end_EmissionHueShift2: 0
@@ -2793,6 +2818,9 @@ Material:
     - s_end_EmissionLightBased1: 0
     - s_end_EmissionLightBased2: 0
     - s_end_EmissionLightBased3: 0
+    - s_end_EmissionScrolling1: 0
+    - s_end_EmissionScrolling2: 0
+    - s_end_EmissionScrolling3: 0
     - s_end_FixedRimBlending: 0
     - s_end_FixedRimColor: 0
     - s_end_FixedRimShapeControl: 0
@@ -2998,6 +3026,8 @@ Material:
     - s_start_EmissionCenterOut1: 0
     - s_start_EmissionCenterOut2: 0
     - s_start_EmissionCenterOut3: 0
+    - s_start_EmissionCenterOutEnabled1: 0
+    - s_start_EmissionCenterOutEnabled3: 0
     - s_start_EmissionHueShift0: 1
     - s_start_EmissionHueShift1: 1
     - s_start_EmissionHueShift2: 0
@@ -3006,6 +3036,9 @@ Material:
     - s_start_EmissionLightBased1: 0
     - s_start_EmissionLightBased2: 0
     - s_start_EmissionLightBased3: 0
+    - s_start_EmissionScrolling1: 0
+    - s_start_EmissionScrolling2: 0
+    - s_start_EmissionScrolling3: 0
     - s_start_FixedRimBlending: 1
     - s_start_FixedRimColor: 1
     - s_start_FixedRimShapeControl: 1
@@ -3488,6 +3521,7 @@ Material:
     - _OutlineDropShadowOffset: {r: 1, g: 0, b: 0, a: 0}
     - _OutlineMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _OutlinePersonaDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _OutlineTexHSVG: {r: 0, g: 1, b: 1, a: 1}
     - _OutlineTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _PBRMaskScaleTiling: {r: 1, g: 1, b: 0, a: 0}
     - _PPMaskPan: {r: 0, g: 0, b: 0, a: 0}

@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2627510870426563121}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 525234640180709690}
+        propBone: {fileID: 0}
         linkTo:
         - useBone: 1
           bone: 0
@@ -124,7 +124,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/SBHarnessFull.controller
+            id: d814ca7ab2f677042b3eb42355c0e785|Assets/Clothing Edits/SB Harness
+              Edit/Systems/Animations/SBHarnessFull.controller
             objRef: {fileID: 9100000, guid: d814ca7ab2f677042b3eb42355c0e785, type: 2}
           type: 5
         menus:
@@ -132,7 +133,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 60a01e12fe7272c489064ddc60c82c82|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLower/HarnessMenu.asset
+            id: 60a01e12fe7272c489064ddc60c82c82|Assets/Clothing Edits/SB Harness
+              Edit/Systems/Animations/NoLower/HarnessMenu.asset
             objRef: {fileID: 11400000, guid: 60a01e12fe7272c489064ddc60c82c82, type: 2}
           prefix: Clothing/Harness
         prms:
@@ -140,7 +142,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 6315f2c44a81bf8419ffe05914b180b2|Assets/Clothing Edits/[AVW]SB Harness/Systems/Animations/NoLower/HarnessParameters.asset
+            id: 6315f2c44a81bf8419ffe05914b180b2|Assets/Clothing Edits/SB Harness
+              Edit/Systems/Animations/NoLower/HarnessParameters.asset
             objRef: {fileID: 11400000, guid: 6315f2c44a81bf8419ffe05914b180b2, type: 2}
         smoothedPrms: []
         globalParams:
@@ -704,12 +707,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a75484576b2d59b4bb9c04987c1c777e, type: 3}
---- !u!1 &525234640180709690 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8431828476256904830, guid: a75484576b2d59b4bb9c04987c1c777e,
-    type: 3}
-  m_PrefabInstance: {fileID: 988015324309524664}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &737635750608238419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a75484576b2d59b4bb9c04987c1c777e,
@@ -931,6 +928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc,
         type: 3}
+      propertyPath: rootTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc,
+        type: 3}
       propertyPath: stretchMotion
       value: 0
       objectReference: {fileID: 0}
@@ -983,6 +985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: poseFilter.allowOthers
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc,
+        type: 3}
+      propertyPath: colliders.Array.data[0]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4414760799009982381, guid: accc36067b7932b4abdb5fa8b026cefc,
         type: 3}
@@ -1498,6 +1505,16 @@ PrefabInstance:
         type: 3}
       propertyPath: latestValidExecutionGroupIndex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177501107082578231, guid: accc36067b7932b4abdb5fa8b026cefc,
+        type: 3}
+      propertyPath: Sources.source0.SourceTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177501107082578231, guid: accc36067b7932b4abdb5fa8b026cefc,
+        type: 3}
+      propertyPath: Sources.source1.SourceTransform
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
