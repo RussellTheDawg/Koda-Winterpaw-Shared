@@ -489,7 +489,7 @@ MonoBehaviour:
         androidActive: 0
         localOnly: 0
         remoteOnly: 0
-        obj: {fileID: 6944412631426500328}
+        obj: {fileID: 1647296864672325181}
         mode: 0
     - rid: 5903862986220241089
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -595,7 +595,7 @@ MonoBehaviour:
         androidActive: 0
         localOnly: 0
         remoteOnly: 0
-        obj: {fileID: 6944412631426500328}
+        obj: {fileID: 1647296864672325181}
         mode: 0
     - rid: 6425162697698181937
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -629,7 +629,7 @@ MonoBehaviour:
         androidActive: 0
         localOnly: 0
         remoteOnly: 0
-        obj: {fileID: 6944412631426500328}
+        obj: {fileID: 1647296864672325181}
         mode: 0
     - rid: 6425162697698181985
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -651,7 +651,7 @@ MonoBehaviour:
         androidActive: 0
         localOnly: 0
         remoteOnly: 0
-        obj: {fileID: 6944412631426500328}
+        obj: {fileID: 1647296864672325181}
         mode: 0
     - rid: 7993152955958951937
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}

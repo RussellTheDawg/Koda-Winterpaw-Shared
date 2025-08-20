@@ -923,6 +923,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7466806850094448753, guid: 348cb79535825b74da39b5a0e70658c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 7842101657048783563, guid: 348cb79535825b74da39b5a0e70658c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1250,6 +1255,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1217056252}
     m_Modifications:
+    - target: {fileID: 1647296864672325181, guid: dfc4ef4f2b955a1448b4aaf5c28f427e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2043824067801340980, guid: dfc4ef4f2b955a1448b4aaf5c28f427e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1263,7 +1273,7 @@ PrefabInstance:
     - target: {fileID: 6944412631426500328, guid: dfc4ef4f2b955a1448b4aaf5c28f427e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7715883125088836690, guid: dfc4ef4f2b955a1448b4aaf5c28f427e,
         type: 3}
@@ -3184,6 +3194,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3426095560296869619, guid: 07e1b1ddb337db4429f5193c94515237,
     type: 3}
   m_PrefabInstance: {fileID: 3778512904708176406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &216347698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217056252}
+    m_Modifications:
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265009382781182374, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_Name
+      value: VRCFury.Boxer NSFW Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027729323021040318, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e02af4ecf66dc424dbcf4599a8b432bb, type: 3}
+--- !u!4 &216347699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3493539606980279068, guid: e02af4ecf66dc424dbcf4599a8b432bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 216347698}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &216804633
 PrefabInstance:
@@ -6629,7 +6718,7 @@ PrefabInstance:
     - target: {fileID: 2473017145102813731, guid: df30d59113cfef64b951d9da83ba49ce,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: EditorOnly
       objectReference: {fileID: 0}
     - target: {fileID: 5550407476277641142, guid: df30d59113cfef64b951d9da83ba49ce,
         type: 3}
@@ -8990,6 +9079,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1217056252}
     m_Modifications:
+    - target: {fileID: 1962415003555045667, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6e555a546388fb443adf9caf608a97e4, type: 2}
     - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9048,7 +9142,7 @@ PrefabInstance:
     - target: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9197,6 +9291,304 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5903863276388483948
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 5903863276388483949
+            - rid: 5903863276388483950
+        - state:
+            actions:
+            - rid: 5903863276388483951
+            - rid: 5903863276388483952
+        - state:
+            actions:
+            - rid: 5903863276388483963
+            - rid: 5903863276388483965
+        - state:
+            actions:
+            - rid: 5903863276388483964
+            - rid: 5903863276388483966
+        - state:
+            actions:
+            - rid: 5903863276388483967
+            - rid: 5903863276388483968
+        - state:
+            actions:
+            - rid: 5903863276388483969
+            - rid: 5903863276388483970
+        - state:
+            actions:
+            - rid: 5903863276388483971
+            - rid: 5903863276388483972
+        - state:
+            actions:
+            - rid: 5903863276388483973
+            - rid: 5903863276388483974
+        - state:
+            actions:
+            - rid: 5903863276388483975
+            - rid: 5903863276388483976
+    - rid: 5903863276388483949
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483950
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6e555a546388fb443adf9caf608a97e4|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Cinnabun Base.mat
+          objRef: {fileID: 2100000, guid: 6e555a546388fb443adf9caf608a97e4, type: 2}
+    - rid: 5903863276388483951
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483952
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 8dbbd902c7d576f4489cc476cbe86176|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Gay Base.mat
+          objRef: {fileID: 2100000, guid: 8dbbd902c7d576f4489cc476cbe86176, type: 2}
+    - rid: 5903863276388483963
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483964
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483965
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 410238c324f9d9045b3856cdb8b0e80c|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Pride Base Fixed.mat
+          objRef: {fileID: 2100000, guid: 410238c324f9d9045b3856cdb8b0e80c, type: 2}
+    - rid: 5903863276388483966
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 36516915bfc638e47a0d6d50bb8b350c|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Pink Paisley Base.mat
+          objRef: {fileID: 2100000, guid: 36516915bfc638e47a0d6d50bb8b350c, type: 2}
+    - rid: 5903863276388483967
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483968
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 13892957e0d2b2a41aea9206c776a816|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Red Paisley Base Fixed.mat
+          objRef: {fileID: 2100000, guid: 13892957e0d2b2a41aea9206c776a816, type: 2}
+    - rid: 5903863276388483969
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483970
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c6202402b690fd147b58df22715ebddc|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Black Paisley Base.mat
+          objRef: {fileID: 2100000, guid: c6202402b690fd147b58df22715ebddc, type: 2}
+    - rid: 5903863276388483971
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483972
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 25ca3b197989fad46aeb3718481c2606|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Black Bones Base.mat
+          objRef: {fileID: 2100000, guid: 25ca3b197989fad46aeb3718481c2606, type: 2}
+    - rid: 5903863276388483973
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483974
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 088fe13e681c12d4db7400ee703382fb|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/White Cloth Base.mat
+          objRef: {fileID: 2100000, guid: 088fe13e681c12d4db7400ee703382fb, type: 2}
+    - rid: 5903863276388483975
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863276388483976
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b27e62f79057265429908baae3d97b97|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Latex Base.mat
+          objRef: {fileID: 2100000, guid: b27e62f79057265429908baae3d97b97, type: 2}
     - rid: 7806802010993328149
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -9204,8 +9596,7 @@ MonoBehaviour:
         name: Clothing/Bandana
         state:
           actions:
-          - rid: 7806802217729524121
-          - rid: 7806802217729524131
+          - rid: 5903863276388483948
         saved: 1
         slider: 1
         sliderInactiveAtZero: 1
@@ -9229,7 +9620,7 @@ MonoBehaviour:
         separateLocal: 0
         localState:
           actions: []
-        hasTransition: 1
+        hasTransition: 0
         transitionStateIn:
           actions: []
         transitionStateOut:
@@ -9249,34 +9640,6 @@ MonoBehaviour:
         holdButton: 0
         invertRestLogic: 0
         expandIntoTransition: 1
-    - rid: 7806802217729524121
-      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 0}
-        renderer: {fileID: 599278079}
-        materialIndex: 0
-        mat:
-          version: 1
-          fileID: 0
-          guid: 
-          id: cc96eb4dc06d9cf45b4b5a9506d3756d|Assets/Clothes Combined Folder/Bandana/Materials/Pride
-            Flags/Pride.mat
-          objRef: {fileID: 2100000, guid: cc96eb4dc06d9cf45b4b5a9506d3756d, type: 2}
-    - rid: 7806802217729524131
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 599278080}
-        mode: 0
 --- !u!1001 &610293923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11254,6 +11617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346287831700877913, guid: 4f753cd34c8eaa84998ca03d245f778c,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1252229917267415283, guid: 4f753cd34c8eaa84998ca03d245f778c, type: 3}
@@ -18540,6 +18908,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 731232056644226614, guid: 4871eed4abf7df944aa9d573595e9a11,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 1522775427251959307, guid: 4871eed4abf7df944aa9d573595e9a11,
         type: 3}
       propertyPath: m_IsActive
@@ -19234,6 +19607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8811693379087813875, guid: 8c0ea546e0e011b4dadf3363ab0b294e,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21144,7 +21522,7 @@ MonoBehaviour:
         slider: 0
         sliderInactiveAtZero: 0
         securityEnabled: 0
-        defaultOn: 0
+        defaultOn: 1
         includeInRest: 0
         exclusiveOffState: 0
         enableExclusiveTag: 0
@@ -22335,17 +22713,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1891339614925394, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.15
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.06
+      value: 0.91
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.03
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22353,27 +22735,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.743408
+      value: 12.7437
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.506817
+      value: 19.4864
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9971818
+      value: 0.99600226
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.07502409
+      value: -0.089327924
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -1.5273822e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -2.1210584e-11
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22395,6 +22777,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2141952127}
+    - targetCorrespondingSourceObject: {fileID: 1891339614925394, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141952137}
   m_SourcePrefab: {fileID: 100100000, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
 --- !u!1 &1216945552
 GameObject:
@@ -22537,8 +22923,9 @@ Transform:
   - {fileID: 918705399}
   - {fileID: 722561662}
   - {fileID: 112456017}
-  - {fileID: 1468518851}
   - {fileID: 631948973}
+  - {fileID: 216347699}
+  - {fileID: 1468518851}
   m_Father: {fileID: 543450651946484903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1217671239 stripped
@@ -23361,6 +23748,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1318479463}
     m_Modifications:
+    - target: {fileID: 1341560905934867684, guid: 553a51885a6e7b04e8314ea11bae5292,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 3376944836084819858, guid: 553a51885a6e7b04e8314ea11bae5292,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24197,7 +24589,6 @@ Transform:
   - {fileID: 5317311436840155067}
   - {fileID: 70813300}
   - {fileID: 586562531}
-  - {fileID: 1512717245}
   - {fileID: 397527174}
   - {fileID: 1647088919}
   m_Father: {fileID: 543450651946484903}
@@ -25261,6 +25652,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1852126686}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1386589865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386589849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5903863276388483723
+  references:
+    version: 2
+    RefIds:
+    - rid: 5903863276388483723
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 1386589849}
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!1 &1396369291
 GameObject:
   m_ObjectHideFlags: 0
@@ -25740,13 +26185,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468518850}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.802094, y: -11.071408, z: -19.390417}
+  m_LocalRotation: {x: 0.0000000016842614, y: -5.8207654e-11, z: -2.1326007e-12, w: 1}
+  m_LocalPosition: {x: -4.802095, y: -11.07141, z: -19.390423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1386589855}
   - {fileID: 2141952126}
+  - {fileID: 1386589855}
   m_Father: {fileID: 1217056252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1468518852
@@ -31502,12 +31947,6 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 1290575224}
         mode: 0
---- !u!4 &1512717245 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-    type: 3}
-  m_PrefabInstance: {fileID: 2044223092}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1527699793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4242167803457663692, guid: 913f64d01e8bd3941b8aeb243bb4109c,
@@ -39821,7 +40260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: avtr_f25e221a-e868-4aa0-90d3-12d3e6e44c80
+  blueprintId: avtr_b66194ea-076c-4ac9-8752-08055d7acc8c
   contentType: 0
   assetBundleUnityVersion: 
   fallbackStatus: 1
@@ -41717,27 +42156,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1499999
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0599997
+      value: 1.0599992
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.06
+      value: 1.0600002
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.802094
+      value: 4.8020964
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.849908
+      value: 12.849905
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.485317
+      value: 19.485325
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41745,15 +42184,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.23720756
+      value: -0.2372075
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.014759727
+      value: -0.014759741
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.01671296
+      value: -0.01671298
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -41779,6 +42218,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1386589850}
+    - targetCorrespondingSourceObject: {fileID: 1891339614925394, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1386589865}
   m_SourcePrefab: {fileID: 100100000, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
 --- !u!1001 &1858234811
 PrefabInstance:
@@ -55280,84 +55723,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8502478224078565528}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2044223092
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1318479463}
-    m_Modifications:
-    - target: {fileID: 2409057829127267349, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_Name
-      value: VRCFury.Boxer Trimmed NSFW RGB
-      objectReference: {fileID: 0}
-    - target: {fileID: 2409057829127267349, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2409057829127267349, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_TagString
-      value: EditorOnly
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3036941243359788719, guid: 5a9d22690f557704cbeece9cc52dfd90,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5a9d22690f557704cbeece9cc52dfd90, type: 3}
 --- !u!1 &2048703153
 GameObject:
   m_ObjectHideFlags: 0
@@ -56376,6 +56741,60 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 2141952125}
         mode: 0
+--- !u!114 &2141952137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141952125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5903863276388483722
+  references:
+    version: 2
+    RefIds:
+    - rid: 5903863276388483722
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 2141952125}
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!1 &2142049091
 GameObject:
   m_ObjectHideFlags: 0
@@ -64913,7 +65332,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 4ed7eed788efc0f46adf5627ad78e3c5|Assets/Bandana.png
+          id: 4ed7eed788efc0f46adf5627ad78e3c5|Assets/Extras Combined Folder/Toggle
+            Images/Bandana.png
           objRef: {fileID: 2800000, guid: 4ed7eed788efc0f46adf5627ad78e3c5, type: 3}
 --- !u!4 &1674273702696771375
 Transform:
@@ -67316,7 +67736,7 @@ GameObject:
   - component: {fileID: 1755147403}
   m_Layer: 0
   m_Name: Props
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67438,7 +67858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2463977343078647789
 GameObject:
   m_ObjectHideFlags: 0
@@ -101257,7 +101677,7 @@ PrefabInstance:
     - target: {fileID: 6944412631426500328, guid: dfc4ef4f2b955a1448b4aaf5c28f427e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7715883125088836690, guid: dfc4ef4f2b955a1448b4aaf5c28f427e,
         type: 3}
