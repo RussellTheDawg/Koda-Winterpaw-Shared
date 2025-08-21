@@ -2335,7 +2335,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 				shadowAttenuation = lerp(1, poiLight.additiveShadow, poiLight.attenuationStrength);
 				#endif
 				#ifdef POI_PASS_ADD
-				if ((3.0 /*_LightingAdditiveType*/) == 3)
+				if ((0.0 /*_LightingAdditiveType*/) == 3)
 				{
 					#if defined(POINT) || defined(SPOT)
 					#if defined(_LIGHTINGMODE_REALISTIC) || defined(_LIGHTINGMODE_CLOTH) || defined(_LIGHTINGMODE_WRAPPED)
@@ -2345,13 +2345,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 					#endif
 					#endif
 				}
-				if ((3.0 /*_LightingAdditiveType*/) == 0)
+				if ((0.0 /*_LightingAdditiveType*/) == 0)
 				{
 					poiLight.rampedLightMap = max(0, poiLight.nDotL);
 					poiLight.finalLighting = poiLight.directColor * attenuation * max(0, poiLight.nDotL) * poiLight.detailShadow * shadowAttenuation;
 					return;
 				}
-				if ((3.0 /*_LightingAdditiveType*/) == 1)
+				if ((0.0 /*_LightingAdditiveType*/) == 1)
 				{
 					#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 					float passthrough = 0;
@@ -2390,7 +2390,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 					float3 vertexLighting = float3(0, 0, 0);
 					for (int index = 0; index < 4; index++)
 					{
-						float lightingMode = (3.0 /*_LightingAdditiveType*/);
+						float lightingMode = (0.0 /*_LightingAdditiveType*/);
 						if (lightingMode == 3)
 						{
 							#if defined(_LIGHTINGMODE_REALISTIC)
@@ -2951,8 +2951,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 						poiLight.vPosition[index] = float3(unity_4LightPosX0[index], unity_4LightPosY0[index], unity_4LightPosZ0[index]);
 						float3 vertexToLightSource = poiLight.vPosition[index] - poiMesh.worldPos;
 						poiLight.vDirection[index] = normalize(vertexToLightSource);
-						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(unity_LightColor[index].rgb * poiLight.vAttenuation[index], (1.0 /*_LightingAdditiveLimit*/)) : unity_LightColor[index].rgb * poiLight.vAttenuation[index];
-						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
+						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(unity_LightColor[index].rgb * poiLight.vAttenuation[index], (0.8 /*_LightingAdditiveLimit*/)) : unity_LightColor[index].rgb * poiLight.vAttenuation[index];
+						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.3 /*_LightingAdditiveMonochromatic*/));
 						poiLight.vHalfDir[index] = Unity_SafeNormalize(poiLight.vDirection[index] + poiCam.viewDir);
 						poiLight.vDotNL[index] = dot(poiMesh.normals[1], poiLight.vDirection[index]);
 						poiLight.vCorrectedDotNL[index] = .5 * (poiLight.vDotNL[index] + 1);
@@ -3198,15 +3198,15 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 				#endif
 				poiLight.additiveShadow = UNITY_SHADOW_ATTENUATION(i, poiMesh.worldPos);
 				poiLight.attenuationStrength = (1.0 /*_LightingAdditiveCastedShadows*/);
-				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(_LightColor0.rgb * poiLight.attenuation, (1.0 /*_LightingAdditiveLimit*/)) : _LightColor0.rgb * poiLight.attenuation;
+				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(_LightColor0.rgb * poiLight.attenuation, (0.8 /*_LightingAdditiveLimit*/)) : _LightColor0.rgb * poiLight.attenuation;
 				#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 				poiLight.indirectColor = 0;
 				#else
 				poiLight.indirectColor = lerp(0, poiLight.directColor, (0.5 /*_LightingAdditivePassthrough*/));
-				poiLight.indirectColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(poiLight.indirectColor, (1.0 /*_LightingAdditiveLimit*/)) : poiLight.indirectColor;
+				poiLight.indirectColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(poiLight.indirectColor, (0.8 /*_LightingAdditiveLimit*/)) : poiLight.indirectColor;
 				#endif
-				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
-				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
+				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.3 /*_LightingAdditiveMonochromatic*/));
+				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.3 /*_LightingAdditiveMonochromatic*/));
 				poiLight.halfDir = normalize(poiLight.direction + poiCam.viewDir);
 				poiLight.nDotL = dot(poiMesh.normals[1], poiLight.direction);
 				poiLight.nDotLSaturated = saturate(poiLight.nDotL);
@@ -5336,7 +5336,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 				shadowAttenuation = lerp(1, poiLight.additiveShadow, poiLight.attenuationStrength);
 				#endif
 				#ifdef POI_PASS_ADD
-				if ((3.0 /*_LightingAdditiveType*/) == 3)
+				if ((0.0 /*_LightingAdditiveType*/) == 3)
 				{
 					#if defined(POINT) || defined(SPOT)
 					#if defined(_LIGHTINGMODE_REALISTIC) || defined(_LIGHTINGMODE_CLOTH) || defined(_LIGHTINGMODE_WRAPPED)
@@ -5346,13 +5346,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 					#endif
 					#endif
 				}
-				if ((3.0 /*_LightingAdditiveType*/) == 0)
+				if ((0.0 /*_LightingAdditiveType*/) == 0)
 				{
 					poiLight.rampedLightMap = max(0, poiLight.nDotL);
 					poiLight.finalLighting = poiLight.directColor * attenuation * max(0, poiLight.nDotL) * poiLight.detailShadow * shadowAttenuation;
 					return;
 				}
-				if ((3.0 /*_LightingAdditiveType*/) == 1)
+				if ((0.0 /*_LightingAdditiveType*/) == 1)
 				{
 					#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 					float passthrough = 0;
@@ -5391,7 +5391,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 					float3 vertexLighting = float3(0, 0, 0);
 					for (int index = 0; index < 4; index++)
 					{
-						float lightingMode = (3.0 /*_LightingAdditiveType*/);
+						float lightingMode = (0.0 /*_LightingAdditiveType*/);
 						if (lightingMode == 3)
 						{
 							#if defined(_LIGHTINGMODE_REALISTIC)
@@ -5952,8 +5952,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 						poiLight.vPosition[index] = float3(unity_4LightPosX0[index], unity_4LightPosY0[index], unity_4LightPosZ0[index]);
 						float3 vertexToLightSource = poiLight.vPosition[index] - poiMesh.worldPos;
 						poiLight.vDirection[index] = normalize(vertexToLightSource);
-						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(unity_LightColor[index].rgb * poiLight.vAttenuation[index], (1.0 /*_LightingAdditiveLimit*/)) : unity_LightColor[index].rgb * poiLight.vAttenuation[index];
-						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
+						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(unity_LightColor[index].rgb * poiLight.vAttenuation[index], (0.8 /*_LightingAdditiveLimit*/)) : unity_LightColor[index].rgb * poiLight.vAttenuation[index];
+						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.3 /*_LightingAdditiveMonochromatic*/));
 						poiLight.vHalfDir[index] = Unity_SafeNormalize(poiLight.vDirection[index] + poiCam.viewDir);
 						poiLight.vDotNL[index] = dot(poiMesh.normals[1], poiLight.vDirection[index]);
 						poiLight.vCorrectedDotNL[index] = .5 * (poiLight.vDotNL[index] + 1);
@@ -6199,15 +6199,15 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/476569fdc95a5864aa67b3cc569e04d8"
 				#endif
 				poiLight.additiveShadow = UNITY_SHADOW_ATTENUATION(i, poiMesh.worldPos);
 				poiLight.attenuationStrength = (1.0 /*_LightingAdditiveCastedShadows*/);
-				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(_LightColor0.rgb * poiLight.attenuation, (1.0 /*_LightingAdditiveLimit*/)) : _LightColor0.rgb * poiLight.attenuation;
+				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(_LightColor0.rgb * poiLight.attenuation, (0.8 /*_LightingAdditiveLimit*/)) : _LightColor0.rgb * poiLight.attenuation;
 				#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 				poiLight.indirectColor = 0;
 				#else
 				poiLight.indirectColor = lerp(0, poiLight.directColor, (0.5 /*_LightingAdditivePassthrough*/));
-				poiLight.indirectColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(poiLight.indirectColor, (1.0 /*_LightingAdditiveLimit*/)) : poiLight.indirectColor;
+				poiLight.indirectColor = (1.0 /*_LightingAdditiveLimited*/) ? MaxLuminance(poiLight.indirectColor, (0.8 /*_LightingAdditiveLimit*/)) : poiLight.indirectColor;
 				#endif
-				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
-				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
+				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.3 /*_LightingAdditiveMonochromatic*/));
+				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.3 /*_LightingAdditiveMonochromatic*/));
 				poiLight.halfDir = normalize(poiLight.direction + poiCam.viewDir);
 				poiLight.nDotL = dot(poiMesh.normals[1], poiLight.direction);
 				poiLight.nDotLSaturated = saturate(poiLight.nDotL);

@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1193.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1193.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1193.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []
@@ -247,7 +247,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Clothing/Shorts
+        name: Clothing/Winterpaw Shorts
         state:
           actions:
           - rid: 5908294354513691017
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1193.0
+  vrcfuryVersion: 1.1227.0
   somethingIsBroken: 0
   config:
     features: []

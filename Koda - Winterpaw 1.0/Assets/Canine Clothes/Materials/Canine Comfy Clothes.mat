@@ -16,7 +16,7 @@ Material:
   - BSSBLOOMFOGTYPE_HEIGHT
   - POI_MATCAP0
   - VIGNETTE_MASKED
-  - _LIGHTINGMODE_REALISTIC
+  - _LIGHTINGMODE_FLAT
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
@@ -26,7 +26,7 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: b7c6192a0ca9b704194226ccb2f889f6
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT POI_MATCAP0 VIGNETTE_MASKED _LIGHTINGMODE_REALISTIC
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT POI_MATCAP0 VIGNETTE_MASKED _LIGHTINGMODE_FLAT
       _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
@@ -1345,9 +1345,9 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 1
-    - _LightingAdditiveLimited: 0
-    - _LightingAdditiveMonochromatic: 0
+    - _LightingAdditiveLimit: 0.8
+    - _LightingAdditiveLimited: 1
+    - _LightingAdditiveMonochromatic: 0.3
     - _LightingAdditivePassthrough: 0.5
     - _LightingAdditiveType: 1
     - _LightingCap: 0.8
@@ -1370,7 +1370,7 @@ Material:
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0.3
     - _LightingMirrorVertexLightingEnabled: 1
-    - _LightingMode: 6
+    - _LightingMode: 5
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
@@ -2620,7 +2620,7 @@ Material:
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 0
-    - m_start_PoiShading: 1
+    - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
@@ -2666,7 +2666,7 @@ Material:
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
-    - m_start_matcap: 1
+    - m_start_matcap: 0
     - m_start_mirrorOptions: 0
     - m_start_normalCorrect: 1
     - m_start_outlineAlphaBlending: 0

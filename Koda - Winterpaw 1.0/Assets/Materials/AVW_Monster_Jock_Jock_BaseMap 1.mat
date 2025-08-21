@@ -1293,11 +1293,11 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 1
+    - _LightingAdditiveLimit: 0.8
     - _LightingAdditiveLimited: 1
-    - _LightingAdditiveMonochromatic: 0
+    - _LightingAdditiveMonochromatic: 0.3
     - _LightingAdditivePassthrough: 0.5
-    - _LightingAdditiveType: 3
+    - _LightingAdditiveType: 0
     - _LightingCap: 0.8
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
@@ -2488,7 +2488,7 @@ Material:
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -2932,7 +2932,7 @@ Material:
     - s_start_RimLight2DirectionMask: 0
     - s_start_RimLightDirectionMask: 0
     - s_start_ScrollingEmission0: 0
-    - s_start_ShadingAddPass: 0
+    - s_start_ShadingAddPass: 1
     - s_start_ShadingGlobalMask: 0
     - s_start_StylizedReflectionLilEnviroReflections: 1
     - s_start_StylizedReflectionLilSpecular: 1
