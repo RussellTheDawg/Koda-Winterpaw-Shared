@@ -2453,7 +2453,7 @@ Material:
     - g_start_decal_position: 0
     - g_start_deliot: 0
     - g_start_hextile: 0
-    - m_AudioLinkCategory: 1
+    - m_AudioLinkCategory: 0
     - m_OutlineCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
@@ -2605,11 +2605,11 @@ Material:
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_modifierCategory: 1
     - m_postprocessing: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 1
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -2687,7 +2687,7 @@ Material:
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 0
     - m_start_PoiPostProcessingCategory: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
@@ -2716,7 +2716,7 @@ Material:
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
-    - m_start_brdf: 0
+    - m_start_brdf: 1
     - m_start_brdfadvanced: 0
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 0
@@ -3154,7 +3154,7 @@ Material:
     - s_start_VertexSphereMode: 0
     - s_start_VertexTornadoMode: 0
     - s_start_WorldTranslation: 0
-    - s_start_brdfadvanced: 0
+    - s_start_brdfadvanced: 1
     - s_start_decal1_position: 1
     - s_start_decal2_position: 1
     - s_start_decal3_position: 1
