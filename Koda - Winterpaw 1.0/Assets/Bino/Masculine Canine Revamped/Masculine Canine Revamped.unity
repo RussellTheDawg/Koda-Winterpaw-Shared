@@ -1769,6 +1769,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1903609674641532823, guid: 4f733f5ee2d0e2d4589e06d20d3af342,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4573,6 +4578,72 @@ MonoBehaviour:
   vrcfuryVersion: 1.1227.0
   name: Headpat
   radius: 0.135
+--- !u!1 &235006371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958985320189756602, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+    type: 3}
+  m_PrefabInstance: {fileID: 1420823967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &235006372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+    type: 3}
+  m_PrefabInstance: {fileID: 1420823967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &235006373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235006371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6425162456688492997
+  references:
+    version: 2
+    RefIds:
+    - rid: 6425162456688492997
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 235006371}
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!1 &239908129
 GameObject:
   m_ObjectHideFlags: 0
@@ -9330,16 +9401,16 @@ MonoBehaviour:
             - rid: 5903863276388483966
         - state:
             actions:
-            - rid: 5903863276388483967
-            - rid: 5903863276388483968
-        - state:
-            actions:
             - rid: 5903863276388483969
             - rid: 5903863276388483970
         - state:
             actions:
             - rid: 5903863276388483971
             - rid: 5903863276388483972
+        - state:
+            actions:
+            - rid: 5903863415711727841
+            - rid: 5903863415711727842
         - state:
             actions:
             - rid: 5903863276388483973
@@ -9460,34 +9531,6 @@ MonoBehaviour:
           id: 36516915bfc638e47a0d6d50bb8b350c|Assets/Clothes Combined Folder/Boxers/Oroppo
             Boxer Retextures/Materials/Bandana Materials/Pink Paisley Base.mat
           objRef: {fileID: 2100000, guid: 36516915bfc638e47a0d6d50bb8b350c, type: 2}
-    - rid: 5903863276388483967
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 599278080}
-        mode: 0
-    - rid: 5903863276388483968
-      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        localOnly: 0
-        remoteOnly: 0
-        obj: {fileID: 0}
-        renderer: {fileID: 599278079}
-        materialIndex: 0
-        mat:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 13892957e0d2b2a41aea9206c776a816|Assets/Clothes Combined Folder/Boxers/Oroppo
-            Boxer Retextures/Materials/Bandana Materials/Red Paisley Base Fixed.mat
-          objRef: {fileID: 2100000, guid: 13892957e0d2b2a41aea9206c776a816, type: 2}
     - rid: 5903863276388483969
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -9600,6 +9643,34 @@ MonoBehaviour:
           id: b27e62f79057265429908baae3d97b97|Assets/Clothes Combined Folder/Boxers/Oroppo
             Boxer Retextures/Materials/Bandana Materials/Latex Base.mat
           objRef: {fileID: 2100000, guid: b27e62f79057265429908baae3d97b97, type: 2}
+    - rid: 5903863415711727841
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 599278080}
+        mode: 0
+    - rid: 5903863415711727842
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 599278079}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e11971a8756a18444bae41a5af32363a|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Pink Bone Base Fixed.mat
+          objRef: {fileID: 2100000, guid: e11971a8756a18444bae41a5af32363a, type: 2}
     - rid: 7806802010993328149
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -21621,7 +21692,7 @@ MonoBehaviour:
         slider: 0
         sliderInactiveAtZero: 0
         securityEnabled: 0
-        defaultOn: 1
+        defaultOn: 0
         includeInRest: 0
         exclusiveOffState: 0
         enableExclusiveTag: 0
@@ -22814,7 +22885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1891339614925394, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_TagString
-      value: EditorOnly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4309065875278172, guid: ddbee247bc88f5d4ebbb0e1fb1dfb47c, type: 3}
       propertyPath: m_LocalScale.x
@@ -23654,6 +23725,58 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5903863415711727659
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 5903863415711727660
+        - state:
+            actions:
+            - rid: 5903863415711727661
+    - rid: 5903863415711727660
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1050687826}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9c1f5d830e102e848b3d3895eadc925b|Assets/Canine Clothes/Materials/White
+            Nike Leg Warmers.mat
+          objRef: {fileID: 2100000, guid: 9c1f5d830e102e848b3d3895eadc925b, type: 2}
+    - rid: 5903863415711727661
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 1050687826}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b7c6192a0ca9b704194226ccb2f889f6|Assets/Canine Clothes/Materials/Black
+            Nike Leg Warmers.mat
+          objRef: {fileID: 2100000, guid: b7c6192a0ca9b704194226ccb2f889f6, type: 2}
     - rid: 7103121478616088858
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -23662,8 +23785,9 @@ MonoBehaviour:
         state:
           actions:
           - rid: 7103121478616088859
+          - rid: 5903863415711727659
         saved: 1
-        slider: 0
+        slider: 1
         sliderInactiveAtZero: 0
         securityEnabled: 0
         defaultOn: 0
@@ -24663,7 +24787,7 @@ GameObject:
   - component: {fileID: 1318479463}
   m_Layer: 0
   m_Name: NSFW
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24999,6 +25123,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1379936246}
+  - {fileID: 235006372}
   m_Father: {fileID: 1217056252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1335779246
@@ -25118,7 +25243,7 @@ MonoBehaviour:
         androidActive: 0
         localOnly: 0
         remoteOnly: 0
-        obj: {fileID: 1379936247}
+        obj: {fileID: 235006371}
         mode: 0
 --- !u!1001 &1342173502
 PrefabInstance:
@@ -25515,6 +25640,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958985320189756602, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
       objectReference: {fileID: 0}
     - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
         type: 3}
@@ -26040,6 +26170,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411032174}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1420823967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1335779245}
+    m_Modifications:
+    - target: {fileID: 5958985320189756602, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_Name
+      value: PitVipersBase2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958985320189756602, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000386
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000734
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97548294
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.22007534
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -25.427
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764147543907246332, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5958985320189756602, guid: 036c0ea85f57d97428ab63cb3b66ae87,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 235006373}
+  m_SourcePrefab: {fileID: 100100000, guid: 036c0ea85f57d97428ab63cb3b66ae87, type: 3}
 --- !u!4 &1430341149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5758452406095819436, guid: bf3b3d4f9e52cb6449786d408311e633,
@@ -39051,6 +39273,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8963401144611795858, guid: 4201338133d73b5458ce55a4413bd1f3,
         type: 3}
+    - target: {fileID: 6228364916522589532, guid: a0e6ce5cb7167b942bb117654d3c1a4f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c1f5d830e102e848b3d3895eadc925b, type: 2}
     - target: {fileID: 6709155448539402404, guid: a0e6ce5cb7167b942bb117654d3c1a4f,
         type: 3}
       propertyPath: m_Mesh
@@ -40360,7 +40587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: avtr_b66194ea-076c-4ac9-8752-08055d7acc8c
+  blueprintId: avtr_c91e5c88-9536-4dce-a50d-b8b077cae125
   contentType: 0
   assetBundleUnityVersion: 
   fallbackStatus: 1
@@ -42385,7 +42612,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b7c6192a0ca9b704194226ccb2f889f6, type: 2}
+      objectReference: {fileID: 2100000, guid: 9c1f5d830e102e848b3d3895eadc925b, type: 2}
     - target: {fileID: 919132149155446097, guid: ad8c982016e24dd4a8f5430680cb35e8,
         type: 3}
       propertyPath: m_Name

@@ -406,7 +406,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Birthday Hat
+        name: Clothing/Birthday Hat
         state:
           actions:
           - rid: 9019329727094587400

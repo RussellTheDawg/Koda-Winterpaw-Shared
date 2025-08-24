@@ -482,6 +482,58 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5903863415711727624
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 5903863417533366297
+        - state:
+            actions:
+            - rid: 5903863415711727651
+    - rid: 5903863415711727651
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 6228364916522589532}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b7c6192a0ca9b704194226ccb2f889f6|Assets/Canine Clothes/Materials/Black
+            Nike Leg Warmers.mat
+          objRef: {fileID: 2100000, guid: b7c6192a0ca9b704194226ccb2f889f6, type: 2}
+    - rid: 5903863417533366297
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 6228364916522589532}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9c1f5d830e102e848b3d3895eadc925b|Assets/Canine Clothes/Materials/White
+            Nike Leg Warmers.mat
+          objRef: {fileID: 2100000, guid: 9c1f5d830e102e848b3d3895eadc925b, type: 2}
     - rid: 7103121478616088622
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -490,8 +542,9 @@ MonoBehaviour:
         state:
           actions:
           - rid: 7103121478616088623
+          - rid: 5903863415711727624
         saved: 1
-        slider: 0
+        slider: 1
         sliderInactiveAtZero: 1
         securityEnabled: 0
         defaultOn: 0
