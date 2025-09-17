@@ -501,7 +501,7 @@ PrefabInstance:
     - target: {fileID: 4373766077984361670, guid: 2e93ae9aaa2048e49bab25b190b73718,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4598686193803551630, guid: 2e93ae9aaa2048e49bab25b190b73718,
         type: 3}
@@ -993,6 +993,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 70813299}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &71964112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1348074438327836915, guid: 8cb66fcbc26cae147b2692a4fda0bdb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 187695943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &75994335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1433,11 +1439,15 @@ PrefabInstance:
     - target: {fileID: 6432017863771335233, guid: b31d3c67e69b4ae4ab6350c329549b46,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5911201593054654715, guid: b31d3c67e69b4ae4ab6350c329549b46,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1716754757}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6432017863771335233, guid: b31d3c67e69b4ae4ab6350c329549b46,
         type: 3}
@@ -3038,7 +3048,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1348074438327836915, guid: 8cb66fcbc26cae147b2692a4fda0bdb0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1989161569}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cb66fcbc26cae147b2692a4fda0bdb0, type: 3}
 --- !u!4 &187695944 stripped
@@ -9228,7 +9242,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5212368088979726356, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1039340070}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
         type: 3}
@@ -18458,6 +18476,74 @@ MonoBehaviour:
         holdButton: 0
         invertRestLogic: 0
         expandIntoTransition: 1
+--- !u!1001 &905563476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 88092171}
+    m_Modifications:
+    - target: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_Name
+      value: VfurPinClutch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0701
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0688
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9121546
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.17005366
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3621228
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08901065
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.329
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -43.176
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 12.372
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ce5d19f7df07f843b46ce8293df07f5, type: 3}
 --- !u!1 &905910547
 GameObject:
   m_ObjectHideFlags: 0
@@ -19132,6 +19218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fara_BirthdayHat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547714640039067549, guid: 0557b4ea4f9964141af60a959d512110,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20942,6 +21033,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4212110589437930206}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1039340069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1938441290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1039340070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1938441290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1039340071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039340069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4166354508073140229
+  references:
+    version: 2
+    RefIds:
+    - rid: 4166354508073140229
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: 
+        state:
+          actions: []
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!4 &1039448037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4205854913337694945, guid: ed770a65b88ef0743a98e859c936bd9a,
@@ -33088,6 +33264,12 @@ MonoBehaviour:
           guid: 
           id: 5c88371f652edb84097328825f0d7590|Assets/Koda 2.0/New Textures/SparklyEyes.mat
           objRef: {fileID: 2100000, guid: 5c88371f652edb84097328825f0d7590, type: 2}
+--- !u!4 &1622919896 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5212368088979726356, guid: 7bce4d538a42a7f4995bbf717398467d,
+    type: 3}
+  m_PrefabInstance: {fileID: 599278077}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1632269877
 GameObject:
   m_ObjectHideFlags: 0
@@ -40148,6 +40330,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9cddb7fef1cde54691152070040a902, type: 3}
+--- !u!4 &1716754757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 905563476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1725822478
 GameObject:
   m_ObjectHideFlags: 0
@@ -43947,6 +44135,93 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8972753186389677995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1909302242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 71964112}
+    m_Modifications:
+    - target: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_Name
+      value: VfurPinClutch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0946
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0011
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.01832274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.58149993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.42896885
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6910195
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -34.858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 93.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 140.295
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1989161572}
+  m_SourcePrefab: {fileID: 100100000, guid: 7ce5d19f7df07f843b46ce8293df07f5, type: 3}
 --- !u!1 &1921519049
 GameObject:
   m_ObjectHideFlags: 0
@@ -44206,6 +44481,78 @@ MonoBehaviour:
         blendShapeValue: 100
         renderer: {fileID: 0}
         allRenderers: 1
+--- !u!1001 &1938441290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1622919896}
+    m_Modifications:
+    - target: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_Name
+      value: VfurPinClutch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.014586411
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.014884867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04814885
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.19631676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.58567214
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.06900485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7833813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15.067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 18.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 15.851
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1039340071}
+  m_SourcePrefab: {fileID: 100100000, guid: 7ce5d19f7df07f843b46ce8293df07f5, type: 3}
 --- !u!1 &1939387014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3733871140327313385, guid: 6966842b1913adc48ae7e23b247fec97,
@@ -49727,6 +50074,102 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1989161568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1909302242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1989161569 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1909302242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1989161572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989161568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1227.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4166354508073140290
+  references:
+    version: 2
+    RefIds:
+    - rid: 4166354508073140290
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/Tail Charm
+        state:
+          actions:
+          - rid: 4166354508073140291
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 4166354508073140291
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 1989161568}
+        mode: 0
 --- !u!1 &1991822555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f4ca936f95c0a24c976b75493ef4b48,
