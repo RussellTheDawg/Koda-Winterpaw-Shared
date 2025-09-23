@@ -118,7 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -461,9 +461,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 4cbb07d181d1cb241836a6e7573dabf7|Assets/Bino/Boxer Canine/Materials/Poiyomi/White
-            Nike.mat
-          objRef: {fileID: 2100000, guid: 4cbb07d181d1cb241836a6e7573dabf7, type: 2}
+          id: 19516d80dda796545bbccb1fed742123|Assets/Bino/Boxer Canine/Materials/Poiyomi/White
+            Nike - Copy.mat
+          objRef: {fileID: 2100000, guid: 19516d80dda796545bbccb1fed742123, type: 2}
     - rid: 5903863276388483686
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
@@ -511,9 +511,9 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 50138c562333e9544bb11a5107584126|Assets/Bino/Boxer Canine/Materials/Poiyomi/Black
-            Nike.mat
-          objRef: {fileID: 2100000, guid: 50138c562333e9544bb11a5107584126, type: 2}
+          id: faf0b5496c7c68349b2e2a4d29dd671c|Assets/Bino/Boxer Canine/Materials/Poiyomi/Black
+            Nike - Copy.mat
+          objRef: {fileID: 2100000, guid: faf0b5496c7c68349b2e2a4d29dd671c, type: 2}
 --- !u!114 &2534557124475252230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1227.0
+  vrcfuryVersion: 1.1252.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1061,7 +1061,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cbb07d181d1cb241836a6e7573dabf7, type: 2}
+  - {fileID: 2100000, guid: 19516d80dda796545bbccb1fed742123, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

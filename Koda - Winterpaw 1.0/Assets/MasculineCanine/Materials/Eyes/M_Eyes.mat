@@ -30,7 +30,7 @@ Material:
     OptimizedShaderFolder: Blue
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT POI_AUDIOLINK VIGNETTE_MASKED _EMISSION
       _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
-    OriginalShader: .poiyomi/Poiyomi Toon
+    OriginalShader: .poiyomi/Old Versions/9.1/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1

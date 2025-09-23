@@ -8,24 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SweatpantsMaterial_Base_color
-  m_Shader: {fileID: 4800000, guid: 001930b66c621434bb900a1b37aad93e, type: 3}
+  m_Shader: {fileID: 4800000, guid: bf7e8112df652ed48a943bca869ba0eb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - VIGNETTE_MASKED
-  - _LIGHTINGMODE_FLAT
-  - _RIM2STYLE_POIYOMI
-  - _RIMSTYLE_POIYOMI
-  - _STOCHASTICMODE_DELIOT_HEITZ
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    AllLockedGUIDS: 8fadc06d3b954574380653859bbd9a0f
-    OriginalKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
-      _STOCHASTICMODE_DELIOT_HEITZ
+    AllLockedGUIDS: 706506aa096e472439e3270668569782,8fadc06d3b954574380653859bbd9a0f
     OriginalShader: .poiyomi/Old Versions/8.1/Poiyomi Toon
     OriginalShaderGUID: 5ca92f1e9fc35504aba297fd1acd62df
     RenderType: Opaque
@@ -2058,7 +2051,7 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 0
+    - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
