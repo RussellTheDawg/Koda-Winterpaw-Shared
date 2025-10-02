@@ -1026,7 +1026,7 @@ PrefabInstance:
     - target: {fileID: 8205520425977696586, guid: 075f4e2b10941c44c92c295b6f7b6411,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8205520425977696586, guid: 075f4e2b10941c44c92c295b6f7b6411,
         type: 3}
@@ -6697,6 +6697,585 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9198483743191873147}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &348577191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217056252}
+    m_Modifications:
+    - target: {fileID: 1962415003555045667, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 088fe13e681c12d4db7400ee703382fb, type: 2}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_Name
+      value: Bandana (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5212368088979726356, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635397142}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 348577198}
+    - targetCorrespondingSourceObject: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 348577197}
+    - targetCorrespondingSourceObject: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 348577196}
+  m_SourcePrefab: {fileID: 100100000, guid: 7bce4d538a42a7f4995bbf717398467d, type: 3}
+--- !u!4 &348577192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4680596774535483766, guid: 7bce4d538a42a7f4995bbf717398467d,
+    type: 3}
+  m_PrefabInstance: {fileID: 348577191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &348577193 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1962415003555045667, guid: 7bce4d538a42a7f4995bbf717398467d,
+    type: 3}
+  m_PrefabInstance: {fileID: 348577191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &348577194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5212368088979726356, guid: 7bce4d538a42a7f4995bbf717398467d,
+    type: 3}
+  m_PrefabInstance: {fileID: 348577191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &348577195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
+    type: 3}
+  m_PrefabInstance: {fileID: 348577191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &348577196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348577195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7806802010993328152
+  references:
+    version: 2
+    RefIds:
+    - rid: 7806802010993328152
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 348577195}
+        linkTo:
+        - useBone: 1
+          bone: 8
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &348577197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348577195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7806802010993328151
+  references:
+    version: 2
+    RefIds:
+    - rid: 7806802010993328151
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothing/Bandana
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a2c00f5a1d0579b42afc3a425415671d|Assets/Extras Combined Folder/Toggle
+            Images/BandanaNoOutline.png
+          objRef: {fileID: 2800000, guid: a2c00f5a1d0579b42afc3a425415671d, type: 3}
+--- !u!114 &348577198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348577195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7806802010993328149
+  references:
+    version: 2
+    RefIds:
+    - rid: 5903863276388483948
+      type: {class: FlipBookBuilderAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        states: []
+        pages:
+        - state:
+            actions:
+            - rid: 5903863276388483949
+            - rid: 5903863276388483950
+        - state:
+            actions:
+            - rid: 5903863276388483951
+            - rid: 5903863276388483952
+        - state:
+            actions:
+            - rid: 5903863276388483963
+            - rid: 5903863276388483965
+        - state:
+            actions:
+            - rid: 5903863276388483964
+            - rid: 5903863276388483966
+        - state:
+            actions:
+            - rid: 5903863276388483969
+            - rid: 5903863276388483970
+        - state:
+            actions:
+            - rid: 5903863276388483971
+            - rid: 5903863276388483972
+        - state:
+            actions:
+            - rid: 5903863415711727841
+            - rid: 5903863415711727842
+        - state:
+            actions:
+            - rid: 5903863276388483973
+            - rid: 5903863276388483974
+        - state:
+            actions:
+            - rid: 5903863276388483975
+            - rid: 5903863276388483976
+    - rid: 5903863276388483949
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483950
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6e555a546388fb443adf9caf608a97e4|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Cinnabun Base.mat
+          objRef: {fileID: 2100000, guid: 6e555a546388fb443adf9caf608a97e4, type: 2}
+    - rid: 5903863276388483951
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483952
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 8dbbd902c7d576f4489cc476cbe86176|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Gay Base.mat
+          objRef: {fileID: 2100000, guid: 8dbbd902c7d576f4489cc476cbe86176, type: 2}
+    - rid: 5903863276388483963
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483964
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483965
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 410238c324f9d9045b3856cdb8b0e80c|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Pride Base Fixed.mat
+          objRef: {fileID: 2100000, guid: 410238c324f9d9045b3856cdb8b0e80c, type: 2}
+    - rid: 5903863276388483966
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 36516915bfc638e47a0d6d50bb8b350c|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Pink Paisley Base.mat
+          objRef: {fileID: 2100000, guid: 36516915bfc638e47a0d6d50bb8b350c, type: 2}
+    - rid: 5903863276388483969
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483970
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c6202402b690fd147b58df22715ebddc|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Black Paisley Base.mat
+          objRef: {fileID: 2100000, guid: c6202402b690fd147b58df22715ebddc, type: 2}
+    - rid: 5903863276388483971
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483972
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 25ca3b197989fad46aeb3718481c2606|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Black Bones Base.mat
+          objRef: {fileID: 2100000, guid: 25ca3b197989fad46aeb3718481c2606, type: 2}
+    - rid: 5903863276388483973
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483974
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 088fe13e681c12d4db7400ee703382fb|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/White Cloth Base.mat
+          objRef: {fileID: 2100000, guid: 088fe13e681c12d4db7400ee703382fb, type: 2}
+    - rid: 5903863276388483975
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863276388483976
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b27e62f79057265429908baae3d97b97|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Latex Base.mat
+          objRef: {fileID: 2100000, guid: b27e62f79057265429908baae3d97b97, type: 2}
+    - rid: 5903863415711727841
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 348577195}
+        mode: 0
+    - rid: 5903863415711727842
+      type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 0}
+        renderer: {fileID: 348577193}
+        materialIndex: 0
+        mat:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e11971a8756a18444bae41a5af32363a|Assets/Clothes Combined Folder/Boxers/Oroppo
+            Boxer Retextures/Materials/Bandana Materials/Pink Bone Base Fixed.mat
+          objRef: {fileID: 2100000, guid: e11971a8756a18444bae41a5af32363a, type: 2}
+    - rid: 7806802010993328149
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothing/Bandana
+        state:
+          actions:
+          - rid: 5903863276388483948
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 1
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0.25
+        transitionTimeOut: 0.25
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!114 &356879635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9350,7 +9929,7 @@ PrefabInstance:
     - target: {fileID: 5458082764449811404, guid: 7bce4d538a42a7f4995bbf717398467d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10726,6 +11305,163 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1005280295567981043}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &635397141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 348577194}
+    m_Modifications:
+    - target: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_Name
+      value: VfurPinClutch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.014586411
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.014884867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04814885
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.19631676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.58567214
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.06900485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7833813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15.067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 18.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 15.851
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635397144}
+  m_SourcePrefab: {fileID: 100100000, guid: 7ce5d19f7df07f843b46ce8293df07f5, type: 3}
+--- !u!4 &635397142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2183774600037278350, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 635397141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &635397143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1514761715203340340, guid: 7ce5d19f7df07f843b46ce8293df07f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 635397141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &635397144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635397143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1252.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4166354508073140229
+  references:
+    version: 2
+    RefIds:
+    - rid: 4166354508073140229
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: 
+        state:
+          actions: []
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!1 &636256750
 GameObject:
   m_ObjectHideFlags: 0
@@ -23381,6 +24117,7 @@ Transform:
   m_Children:
   - {fileID: 82344334}
   - {fileID: 599278078}
+  - {fileID: 348577192}
   - {fileID: 1335779245}
   - {fileID: 183053732}
   - {fileID: 918705399}
@@ -25520,6 +26257,9 @@ MonoBehaviour:
         state:
           actions:
           - rid: 1164594328297013372
+          - rid: 6505933492214562900
+          - rid: 6505933492214562901
+          - rid: 6505933492214562902
         saved: 1
         slider: 0
         sliderInactiveAtZero: 0
@@ -25573,6 +26313,42 @@ MonoBehaviour:
         remoteOnly: 0
         obj: {fileID: 919132148546033989}
         mode: 0
+    - rid: 6505933492214562900
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Feet
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 6505933492214562901
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Feet Smaller
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 6505933492214562902
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Plantigrade Legs
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
 --- !u!4 &1334953796 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1409756863126293160, guid: 3caeba44834e5b147ac9b44690d30ebb,
@@ -32779,18 +33555,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9066291
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.000020609
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0025394
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.0018451
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07c0388c44404f84da0f317cdbf466d8,
         type: 3}
@@ -63572,7 +64363,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.4631586, y: -0.00034810108, z: 0.0002577419, w: 0.88627535}
   m_LocalPosition: {x: -0.000000011008524, y: 0.45570758, z: 0.0000000012769306}
-  m_LocalScale: {x: 0.6593945, y: 0.6593945, z: 0.6593945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 697505774282054256}
@@ -66464,7 +67255,7 @@ SkinnedMeshRenderer:
   - 0
   - 0
   - 0
-  - 100
+  - 0
   - 0
   - 0
   - 0
@@ -104730,7 +105521,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.46315885, y: 0.0003540557, z: -0.0002609162, w: 0.88627523}
   m_LocalPosition: {x: 0.0000000049021764, y: 0.45570767, z: 0.0000000060917955}
-  m_LocalScale: {x: 0.5227, y: 0.52269995, z: 0.5227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 562537559544355014}
